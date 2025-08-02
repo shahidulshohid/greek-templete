@@ -1,7 +1,7 @@
 
-function ProjectDescription() {
+function ProjectDescriptionOne() {
     return (
-        <div>
+        <div className="max-w-[632px] mx-auto">
             <div className=" bg-white">
                 {/* Title */}
                 <h2 className="text-center font-semibold text-lg mb-6 underline">
@@ -74,4 +74,4 @@ function ProjectDescription() {
     )
 }
 
-export default ProjectDescription
+export default ProjectDescriptionOne

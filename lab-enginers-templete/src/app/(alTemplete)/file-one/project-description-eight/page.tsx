@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ProjectDescriptionTwo() {
+function ProjectDescriptionEight() {
     return (
-        <div>
+        <div className='max-w-[632px] mx-auto'>
             {/* Title */}
             <h2 className="text-center font-semibold text-xl mb-6 underline">
                 ΤΕΧΝΙΚΗ ΕΚΘΕΣΗ ΕΡΓΑΣΙΩΝ - ΒΕΒΑΙΩΣΗ ΜΗΧΑΝΙΚΟΥ
@@ -17,14 +17,14 @@ function ProjectDescriptionTwo() {
             </div>
 
             {/* Address Row */}
-            <div className="grid grid-cols-12 gap-2 mb-4">
+            <div className="grid grid-cols-12 gap-2 mb-4 mt-20">
                 <label className="col-span-2 font-medium">Θέση:</label>
                 <div className="col-span-10">
                     ADDRESS, TOWN/AREA , POSTAL CODE (FOR BUILDING)
                 </div>
             </div>
 
-            <div className='lg:ml-12 mt-20'>
+            <div className='lg:ml-12'>
                 {/* Owner Row */}
                 <div className="grid grid-cols-12 gap-2">
                     <label className="col-span-2 font-medium">Ιδιοκτήτης:</label>
@@ -35,9 +35,9 @@ function ProjectDescriptionTwo() {
 
                 {/* Greek Description */}
                 <p className="my-10">
-                    Στο ακίνητο <span className="text-lg font-semibold">Description for building/horizontal property</span>
+                    Στο ακίνητο <span className="text-sm font-semibold">Description for building/horizontal property</span>
                     επί της οδού <br /> <span className="text-lg font-semibold">Address, Town/Area, postal code (FOR BUILDING)</span>,
-                    πρόκειται να <br /> εκτελεσθούν οι παρακάτω εργασίες :
+                    πρόκειται να εκτελεσθούν οι παρακάτω εργασίες :
                 </p>
 
                 {/* Bullet Point */}
@@ -58,4 +58,4 @@ function ProjectDescriptionTwo() {
     )
 }
 
-export default ProjectDescriptionTwo
+export default ProjectDescriptionEight
