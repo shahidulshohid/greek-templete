@@ -8,8 +8,8 @@ function Home() {
   return (
     <div className='p-8'>
       {/* <ProjectDescriptionOne/> */}
-      {/* <ProjectDescriptionEight/> */}
-      <ProjectDescriptionNine/>
+      <ProjectDescriptionEight/>
+      {/* <ProjectDescriptionNine/> */}
     </div>
   )
 }

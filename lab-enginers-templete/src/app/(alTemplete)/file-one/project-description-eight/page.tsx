@@ -54,6 +54,39 @@ function ProjectDescriptionEight() {
                     </p>
                 </div>
             </div>
+            <div className="min-h-screen flex items-center justify-center">
+                <div>
+                    {/* Header Section */}
+                    <div className="text-center mb-8">
+                        <h2 className="text-xl mb-2">
+                            Ημερομηνία
+                        </h2>
+                        <p className="text-lg text-gray-600 mb-6">
+                            6/25/2025
+                        </p>
+
+                        <h3 className="text-lg font-medium text-gray-700 mb-4">
+                            Ο ΜΗΧΑΝΙΚΟΣ
+                        </h3>
+                    </div>
+
+                    {/* Dashed Border Box */}
+                    <div className="border-3 border-dashed border-gray-800 text-center p-4">
+                        <h4 className="text-lg font-bold mb-2">
+                            ΣΦΡΑΓΙΔΑ ΜΗΧΑΝΙΚΟΥ
+                        </h4>
+                        <p className="text-sm font-bold text-blue-600 mb-1">
+                            Με δεξί κλικ
+                        </p>
+                        <p className="text-sm font-bold text-blue-600 mb-1">
+                            "Αλλαγή εικόνας"
+                        </p>
+                        <p className="text-sm font-bold text-blue-600">
+                            Βάζετε την σφραγίδα σας
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
