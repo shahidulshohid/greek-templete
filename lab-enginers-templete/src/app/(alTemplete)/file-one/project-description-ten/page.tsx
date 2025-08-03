@@ -430,8 +430,6 @@ export default function ProjectDescriptionTen() {
                     </div>
                 </div>
 
-
-
                 <div className="mt-6 text-right p-5">
                     <div className="flex justify-between items-start">
                         <div className="">

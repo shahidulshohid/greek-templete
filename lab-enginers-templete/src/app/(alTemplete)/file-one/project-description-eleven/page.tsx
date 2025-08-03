@@ -1,4 +1,5 @@
 "use client"
+import StampComponent from "@/component/shared/dashed/Dashed"
 import { useState } from "react"
 
 interface BudgetItem {
@@ -1010,7 +1011,7 @@ export default function Component() {
       {/* Header */}
       <div className="text-center mb-6">
         <h1 className="text-xl font-bold mb-2">ΣΥΝΤΑΞΗ ΑΝΑΛΥΤΙΚΟΥ ΠΡΟΫΠΟΛΟΓΙΣΜΟΥ ΕΡΓΟΥ</h1>
-        <p className="text-sm">(σύμφωνα με το Παράρτημα Β' του Ν.4495/17)</p>
+        <p className="text-sm text-blue-600">(σύμφωνα με το Παράρτημα Β' του Ν.4495/17)</p>
       </div>
 
       {/* Project Info */}
@@ -1048,8 +1049,8 @@ export default function Component() {
       </div>
 
       {/* Budget Title */}
-      <div className="text-center mb-4 bg-gray-100 p-2 border border-gray-400">
-        <h2 className="text-lg font-bold">ΑΝΑΛΥΤΙΚΟΣ ΠΡΟΫΠΟΛΟΓΙΣΜΟΣ ΒΑΣΕΙ ΠΑΡΑΡΤΗΜΑΤΟΣ Β' Ν.4495/17)</h2>
+      <div className="text-center bg-gray-200 p-2 border border-gray-400 border-b-0">
+        <h2 className="text-lg font-bold text-blue-700">ΑΝΑΛΥΤΙΚΟΣ ΠΡΟΫΠΟΛΟΓΙΣΜΟΣ ΒΑΣΕΙ ΠΑΡΑΡΤΗΜΑΤΟΣ Β' Ν.4495/17)</h2>
       </div>
 
       {/* Budget Table */}
@@ -1122,27 +1123,26 @@ export default function Component() {
       </div>
 
       {/* Signature Section */}
-      <div className="mt-6 flex justify-between items-end">
-        <div>
-          <div className="flex items-center gap-2 mb-4">
-            <span className="font-medium">Ημερομηνία*:</span>
-            <input
-              type="text"
-              value={formData.date}
-              onChange={(e) => handleInputChange("date", e.target.value)}
-              className="border-none outline-none bg-transparent text-blue-600 font-medium"
+      <div className="mt-6 text-right p-5">
+        <div className="flex justify-between items-start">
+          <div className="flex items-center justify-end gap-2">
+            <span className="">Ημερομηνία :</span>
+            <span className="text-blue-600">2/8/2025</span>
+          </div>
+          <div className="">
+            <h3 className="text-center mb-4">Ο ΣΥΝΤΑΞΑΣ</h3>
+            {/* Dashed Border Box = common component*/}
+            <StampComponent
+              title="ΣΦΡΑΓΙΔΑ ΜΗΧΑΝΙΚΟΥ"
+              instructions={[
+                "Με δεξί κλικ",
+                "Αλλαγή εικόνας",
+                " Βάζετε την σφραγίδα σας",
+              ]}
             />
           </div>
         </div>
-
-        {/* <div className="text-center">
-          <div className="font-bold mb-2">Ο Συντάξας Μηχανικός</div>
-          <div className="text-sm mb-2">SIGN ENGINEER</div>
-          <div className="w-32 h-20 border border-gray-400 flex items-center justify-center text-xs text-gray-500">
-            stamp and signature of an engineer
-          </div>
-        </div> */}
       </div>
-    </div>
+    </div >
   )
 }
