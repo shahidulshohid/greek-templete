@@ -1,3 +1,4 @@
+import StampComponent from '@/component/shared/dashed/Dashed'
 import React from 'react'
 
 function ProjectDescriptionEight() {
@@ -54,7 +55,7 @@ function ProjectDescriptionEight() {
                     </p>
                 </div>
             </div>
-            <div className="min-h-screen flex items-center justify-center">
+            <div className="mt-20 flex items-center justify-center">
                 <div>
                     {/* Header Section */}
                     <div className="text-center mb-8">
@@ -70,21 +71,16 @@ function ProjectDescriptionEight() {
                         </h3>
                     </div>
 
-                    {/* Dashed Border Box */}
-                    <div className="border-3 border-dashed border-gray-800 text-center p-4">
-                        <h4 className="text-lg font-bold mb-2">
-                            ΣΦΡΑΓΙΔΑ ΜΗΧΑΝΙΚΟΥ
-                        </h4>
-                        <p className="text-sm font-bold text-blue-600 mb-1">
-                            Με δεξί κλικ
-                        </p>
-                        <p className="text-sm font-bold text-blue-600 mb-1">
-                            "Αλλαγή εικόνας"
-                        </p>
-                        <p className="text-sm font-bold text-blue-600">
-                            Βάζετε την σφραγίδα σας
-                        </p>
-                    </div>
+                    {/* Dashed Border Box = common component*/}
+                    <StampComponent
+                        title="ΣΦΡΑΓΙΔΑ ΜΗΧΑΝΙΚΟΥ"
+                        instructions={[
+                            "Με δεξί κλικ",
+                            "Αλλαγή εικόνας",
+                            " Βάζετε την σφραγίδα σας",
+                        ]}
+                    />
+
                 </div>
             </div>
         </div>

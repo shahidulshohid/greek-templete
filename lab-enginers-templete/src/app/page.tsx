@@ -1,7 +1,8 @@
 import ProjectDescriptionEight from "./(alTemplete)/file-one/project-description-eight/page"
 import ProjectDescriptionNine from "./(alTemplete)/file-one/project-description-nine/page"
 import ProjectDescriptionOne from "./(alTemplete)/file-one/project-description-one/page"
-import ProjectDescriptionTwo from "./(alTemplete)/file-one/project-sescription-two/page"
+import ProjectDescriptionTen from "./(alTemplete)/file-one/project-description-ten/page"
+import ProjectDescriptionTwo from "./(alTemplete)/file-one/project-description-two/page"
 
 
 
@@ -11,7 +12,8 @@ function Home() {
       {/* <ProjectDescriptionOne/> */}
       {/* <ProjectDescriptionEight/> */}
       {/* <ProjectDescriptionNine/> */}
-      <ProjectDescriptionTwo/>
+      {/* <ProjectDescriptionTwo/> */}
+      <ProjectDescriptionTen/>
     </div>
   )
 }
