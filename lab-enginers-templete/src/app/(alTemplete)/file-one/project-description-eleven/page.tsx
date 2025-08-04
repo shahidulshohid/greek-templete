@@ -1007,11 +1007,11 @@ export default function Component() {
   const finalTotal = grandTotal + formData.unforeseen
 
   return (
-    <div className="max-w-6xl mx-auto p-4 bg-white">
+    <div className="max-w-[794px] mx-auto p-4 bg-white">
       {/* Header */}
       <div className="text-center mb-6">
         <h1 className="text-xl font-bold mb-2">ΣΥΝΤΑΞΗ ΑΝΑΛΥΤΙΚΟΥ ΠΡΟΫΠΟΛΟΓΙΣΜΟΥ ΕΡΓΟΥ</h1>
-        <p className="text-sm text-blue-600">(σύμφωνα με το Παράρτημα Β' του Ν.4495/17)</p>
+        <p className="text-sm ">(σύμφωνα με το Παράρτημα Β' του Ν.4495/17)</p>
       </div>
 
       {/* Project Info */}
@@ -1022,7 +1022,7 @@ export default function Component() {
             type="text"
             value={formData.employer}
             onChange={(e) => handleInputChange("employer", e.target.value)}
-            className="flex-1 p-1 border-none outline-none bg-transparent text-blue-600 font-medium placeholder:text-blue-600"
+            className="flex-1 p-1 border-none outline-none bg-transparent  font-medium placeholder:"
             placeholder="OWNER/OWNERS"
           />
         </div>
@@ -1032,7 +1032,7 @@ export default function Component() {
             type="text"
             value={formData.project}
             onChange={(e) => handleInputChange("project", e.target.value)}
-            className="flex-1 p-1 border-none outline-none bg-transparent text-blue-600 font-medium placeholder:text-blue-600"
+            className="flex-1 p-1 border-none outline-none bg-transparent  font-medium placeholder:"
             placeholder="PROJECT DESCRIPTION"
           />
         </div>
@@ -1042,7 +1042,7 @@ export default function Component() {
             type="text"
             value={formData.address}
             onChange={(e) => handleInputChange("address", e.target.value)}
-            className="flex-1 p-1 border-none outline-none bg-transparent text-blue-600 font-medium placeholder:text-blue-600"
+            className="flex-1 p-1 border-none outline-none bg-transparent  font-medium placeholder:"
             placeholder="ADDRESS, TOWN/AREA, POSTAL CODE (FOR BUILDING)"
           />
         </div>
@@ -1050,7 +1050,7 @@ export default function Component() {
 
       {/* Budget Title */}
       <div className="text-center bg-gray-200 p-2 border border-gray-400 border-b-0">
-        <h2 className="text-lg font-bold text-blue-700">ΑΝΑΛΥΤΙΚΟΣ ΠΡΟΫΠΟΛΟΓΙΣΜΟΣ ΒΑΣΕΙ ΠΑΡΑΡΤΗΜΑΤΟΣ Β' Ν.4495/17)</h2>
+        <h2 className="text-lg font-bold ">ΑΝΑΛΥΤΙΚΟΣ ΠΡΟΫΠΟΛΟΓΙΣΜΟΣ ΒΑΣΕΙ ΠΑΡΑΡΤΗΜΑΤΟΣ Β' Ν.4495/17)</h2>
       </div>
 
       {/* Budget Table */}
@@ -1070,24 +1070,24 @@ export default function Component() {
           <div key={category.id}>
             {/* Category Header */}
             <div className="grid grid-cols-12 bg-gray-50 border-b border-gray-400">
-              <div className="col-span-1 p-2 border-r border-gray-400 font-bold text-blue-800">{category.id}</div>
-              <div className="col-span-9 p-2 border-r border-gray-400 font-bold text-blue-800">{category.title}</div>
-              {/* <div className="col-span-2 p-2 font-bold text-right text-blue-800">{category.subtotal.toFixed(2)}</div> */}
+              <div className="col-span-1 p-2 border-r border-gray-400 font-bold ">{category.id}</div>
+              <div className="col-span-9 p-2 border-r border-gray-400 font-bold ">{category.title}</div>
+              {/* <div className="col-span-2 p-2 font-bold text-right ">{category.subtotal.toFixed(2)}</div> */}
             </div>
 
             {/* Category Items */}
             {category.items.map((item) => (
               <div key={item.code} className="grid grid-cols-12 border-b border-gray-400 text-sm">
-                <div className="col-span-1 p-2 border-r border-gray-400 text-blue-700">{item.code}</div>
-                <div className="col-span-5 p-2 border-r border-gray-400 text-blue-700">{item.description}</div>
-                <div className="col-span-1 p-2 border-r border-gray-400 text-center text-blue-700">{item.unit}</div>
-                <div className="col-span-1 p-2 border-r border-gray-400 text-right text-blue-700">
+                <div className="col-span-1 p-2 border-r border-gray-400 ">{item.code}</div>
+                <div className="col-span-5 p-2 border-r border-gray-400 ">{item.description}</div>
+                <div className="col-span-1 p-2 border-r border-gray-400 text-center ">{item.unit}</div>
+                <div className="col-span-1 p-2 border-r border-gray-400 text-right ">
                   {item.unitPrice.toFixed(2)}
                 </div>
-                <div className="col-span-2 p-2 border-r border-gray-400 text-right text-blue-700">
+                <div className="col-span-2 p-2 border-r border-gray-400 text-right ">
                   {item.quantity > 0 ? item.quantity.toFixed(2) : ""}
                 </div>
-                <div className="col-span-2 p-2 text-right font-medium text-blue-700">
+                <div className="col-span-2 p-2 text-right font-medium ">
                   {item.total > 0 ? item.total.toFixed(2) : ""}
                 </div>
               </div>
@@ -1096,7 +1096,7 @@ export default function Component() {
             {/* Category Subtotal */}
             <div className="grid grid-cols-12 bg-gray-50 border-b border-gray-400">
               <div className="col-span-10 p-2 text-right font-bold">Μερικό Σύνολο =</div>
-              <div className="col-span-2 p-2 text-right font-bold text-red-500">{category.subtotal.toFixed(2)}</div>
+              <div className="col-span-2 p-2 text-right font-bold ">{category.subtotal.toFixed(2)}</div>
             </div>
           </div>
         ))}
@@ -1105,16 +1105,16 @@ export default function Component() {
         <div className="">
           <div className="grid grid-cols-12 border-b border-gray-400 bg-gray-100">
             <div className="col-span-10 p-2 text-right font-bold">Γενικό Σύνολο Αναλυτικού Προϋπολογισμού*. =</div>
-            <div className="col-span-2 p-2 text-right font-bold text-blue-600">{grandTotal.toFixed(2)} €</div>
+            <div className="col-span-2 p-2 text-right font-bold ">{grandTotal.toFixed(2)} €</div>
           </div>
 
           <div className="grid grid-cols-12 border-b border-gray-400">
             <div className="col-span-10 p-2 text-right font-bold">Απρόβλεπτα*. =</div>
-            <div className="col-span-2 p-2 text-right font-bold text-blue-600">{formData.unforeseen.toFixed(2)} €</div>
+            <div className="col-span-2 p-2 text-right font-bold ">{formData.unforeseen.toFixed(2)} €</div>
           </div>
 
           <div className="grid grid-cols-12 bg-gray-200">
-            <div className="col-span-10 p-2 text-right font-bold text-blue-600">
+            <div className="col-span-10 p-2 text-right font-bold ">
               Σύνολο Αναλυτικού Προϋπολογισμού βάσει Παραρτήματος Β' Ν.4495/17)*. =
             </div>
             <div className="col-span-2 p-2 text-right font-bold text-lg">{finalTotal.toFixed(2)} €</div>
@@ -1127,7 +1127,7 @@ export default function Component() {
         <div className="flex justify-between items-start">
           <div className="flex items-center justify-end gap-2">
             <span className="">Ημερομηνία :</span>
-            <span className="text-blue-600">2/8/2025</span>
+            <span className="">2/8/2025</span>
           </div>
           <div className="">
             <h3 className="text-center mb-4">Ο ΣΥΝΤΑΞΑΣ</h3>

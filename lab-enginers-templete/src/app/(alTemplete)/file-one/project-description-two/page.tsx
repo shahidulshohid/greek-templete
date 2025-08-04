@@ -29,7 +29,7 @@ export default function ProjectDescriptionTwo() {
         <div className="border-b border-gray-400 bg-gray-50">
           <div className="flex">
             <div className="w-20 p-2 border-r border-gray-400 font-bold text-sm">ΠΡΟΣ(1):</div>
-            <div className="flex-1 p-2 text-blue-600 font-bold">YDOM</div>
+            <div className="flex-1 p-2  font-bold">YDOM</div>
           </div>
         </div>
 
@@ -37,9 +37,9 @@ export default function ProjectDescriptionTwo() {
         <div className="border-b border-gray-400">
           <div className="flex">
             <div className="w-32 p-2 border-r border-gray-400 text-sm">Ο-Η Όνομα</div>
-            <div className="w-40 p-2 border-r border-gray-400 text-blue-600 font-bold">Name Owner</div>
+            <div className="w-40 p-2 border-r border-gray-400  font-bold">Name Owner</div>
             <div className="w-20 p-2 border-r border-gray-400 text-sm">Επώνυμο</div>
-            <div className="flex-1 p-2 text-blue-600 font-bold">Surname Owner</div>
+            <div className="flex-1 p-2  font-bold">Surname Owner</div>
           </div>
         </div>
 
@@ -71,7 +71,7 @@ export default function ProjectDescriptionTwo() {
         <div className="border-b border-gray-400">
           <div className="flex">
             <div className="w-32 p-2 border-r border-gray-400 text-sm">Τόπος Γέννησης</div>
-            <div className="flex-1 p-2 text-blue-600">Born Town owner</div>
+            <div className="flex-1 p-2 ">Born Town owner</div>
           </div>
         </div>
 
@@ -79,9 +79,9 @@ export default function ProjectDescriptionTwo() {
         <div className="border-b border-gray-400">
           <div className="flex">
             <div className="w-32 p-2 border-r border-gray-400 text-sm">Αριθμός Δελτίου Ταυτότητας</div>
-            <div className="w-20 p-2 border-r border-gray-400 text-blue-600">ID</div>
+            <div className="w-20 p-2 border-r border-gray-400 ">ID</div>
             <div className="w-16 p-2 border-r border-gray-400 text-sm">Τηλ.:</div>
-            <div className="flex-1 p-2 text-blue-600">mobile</div>
+            <div className="flex-1 p-2 ">mobile</div>
           </div>
         </div>
 
@@ -89,13 +89,13 @@ export default function ProjectDescriptionTwo() {
         <div className="border-b border-gray-400">
           <div className="flex">
             <div className="w-32 p-2 border-r border-gray-400 text-sm">Τόπος κατοικίας</div>
-            <div className="w-20 p-2 border-r border-gray-400 text-blue-600">Town</div>
+            <div className="w-20 p-2 border-r border-gray-400 ">Town</div>
             <div className="w-16 p-2 border-r border-gray-400 text-sm">Οδός</div>
-            <div className="w-24 p-2 border-r border-gray-400 text-blue-600">Address</div>
+            <div className="w-24 p-2 border-r border-gray-400 ">Address</div>
             <div className="w-16 p-2 border-r border-gray-400 text-sm">Αριθ</div>
-            <div className="w-20 p-2 border-r border-gray-400 text-blue-600">Number</div>
+            <div className="w-20 p-2 border-r border-gray-400 ">Number</div>
             <div className="w-12 p-2 border-r border-gray-400 text-sm">ΤΚ</div>
-            <div className="flex-1 p-2 text-blue-600">postal code</div>
+            <div className="flex-1 p-2 ">postal code</div>
           </div>
         </div>
 
@@ -111,7 +111,7 @@ export default function ProjectDescriptionTwo() {
                 <div>ίου (Email):</div>
               </div>
             </div>
-            <div className="w-32 p-2 text-blue-600">email owner</div>
+            <div className="w-32 p-2 ">email owner</div>
           </div>
         </div>
 
@@ -119,7 +119,7 @@ export default function ProjectDescriptionTwo() {
         <div className="border-b border-gray-400">
           <div className="flex">
             <div className="w-32 p-2 border-r border-gray-400 text-sm">Α.Φ.Μ.:</div>
-            <div className="flex-1 p-2 text-blue-600">VAT owner</div>
+            <div className="flex-1 p-2 ">VAT owner</div>
             <div className="w-32 p-2 border-l border-gray-400 text-sm">Δ.Ο.Υ.:</div>
           </div>
         </div>
@@ -137,12 +137,12 @@ export default function ProjectDescriptionTwo() {
           </p>
 
           <p className="mb-4">για το έργο με τίτλο :</p>
-          <p className="text-blue-600 font-bold">PROJECT DESCRIPTION</p>
+          <p className=" font-bold">PROJECT DESCRIPTION</p>
         </div>
 
         {/* Additional disclaimer text */}
         <div className="p-4 text-sm bg-blue-50 border-t border-gray-400">
-          <p className="text-blue-600">
+          <p className="">
             Η παρούσα δήλωση παρέχεται αποκλειστικά για την κάλυψη των απαιτήσεων του άρθρου 29 του Ν.4495/2017 και των
             σχετικών κανονιστικών πράξεων.
           </p>

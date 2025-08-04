@@ -21,7 +21,7 @@ const StampComponent: React.FC<StampComponentProps> = ({
       {instructions.map((instruction, index) => (
         <p
           key={index}
-          className="text-sm font-bold text-blue-600 mb-1"
+          className="text-sm font-bold mb-1"
         >
           {instruction}
         </p>

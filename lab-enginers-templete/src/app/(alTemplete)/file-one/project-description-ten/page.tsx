@@ -167,27 +167,27 @@ export default function ProjectDescriptionTen() {
                     <div className="space-y-3">
                         <div className="flex items-center gap-2">
                             <span className="font-medium">ΕΡΓΟ :</span>
-                            <span className="flex-1 text-blue-600 font-bold">PROJECT DESCRIPTION</span>
+                            <span className="flex-1  font-bold">PROJECT DESCRIPTION</span>
                         </div>
 
                         <div className="flex items-center gap-2">
                             <span className="font-medium">ΔΙΕΥΘΥΝΣΗ :</span>
-                            <span className="text-blue-600 font-bold">ADDRESS</span>
-                            <span className="text-blue-600 font-bold">, CITY</span>
-                            <span className="text-blue-600 font-bold">, TOWN</span>
-                            <span className="text-blue-600 font-bold">, POSTAL CODE</span>
-                            <span className="text-blue-600 font-bold">FOR BUILDING</span>
+                            <span className=" font-bold">ADDRESS</span>
+                            <span className=" font-bold">, CITY</span>
+                            <span className=" font-bold">, TOWN</span>
+                            <span className=" font-bold">, POSTAL CODE</span>
+                            <span className=" font-bold">FOR BUILDING</span>
                         </div>
 
                         <div className="flex items-center gap-2">
                             <span className="font-medium">ΙΔΙΟΚΤΗΤΗΣ :</span>
-                            <span className="flex-1 text-blue-600 font-bold">OWNER/OWNERS</span>
+                            <span className="flex-1  font-bold">OWNER/OWNERS</span>
                         </div>
                         <div className="flex justify-between">
                             <span className="font-medium">ΥΠΟΧΡΕΟΣ ΓΙΑ ΤΗΝ ΕΚΠΟΝΗΣΗ ΤΟΥ Σ.Α.Υ. :</span>
                             <div className="flex flex-col items-center justify-center">
-                                <span className="flex-1 text-blue-600 font-bold">NAME AND SURNAME ENGINEER</span>
-                                <span className="flex-1 text-blue-600 font-bold">SPECIALTY</span>
+                                <span className="flex-1  font-bold">NAME AND SURNAME ENGINEER</span>
+                                <span className="flex-1  font-bold">SPECIALTY</span>
                             </div>
                         </div>
                     </div>
@@ -204,7 +204,7 @@ export default function ProjectDescriptionTen() {
                             {descriptions.map((description, i) => (
                                 <div key={i} className="flex items-center gap-2">
                                     <span className="w-6">{i + 1}</span>
-                                    <span className="flex-1 text-blue-600"></span>
+                                    <span className="flex-1 "></span>
                                 </div>
                             ))}
                         </div>
@@ -355,7 +355,7 @@ export default function ProjectDescriptionTen() {
                             {descriptions2.map((description, i) => (
                                 <div key={i} className="flex items-center gap-2">
                                     <span className="w-6 text-[#008000]">{i + 1}</span>
-                                    <span className=" text-blue-600"></span>
+                                    <span className=" "></span>
                                 </div>
                             ))}
                         </div>
