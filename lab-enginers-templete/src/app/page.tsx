@@ -1,3 +1,4 @@
+import DesignFive from "./(alTemplete)/file-fifteen/design-five/page"
 import ProjectDescriptionEight from "./(alTemplete)/file-one/project-description-eight/page"
 import ProjectDescriptionEleven from "./(alTemplete)/file-one/project-description-eleven/page"
 import ProjectDescriptionNine from "./(alTemplete)/file-one/project-description-nine/page"
@@ -15,7 +16,8 @@ function Home() {
       {/* <ProjectDescriptionNine/> */}
       {/* <ProjectDescriptionTwo/> */}
       {/* <ProjectDescriptionTen/> */}
-      <ProjectDescriptionEleven/>
+      {/* <ProjectDescriptionEleven/> */}
+      <DesignFive/>
     </div>
   )
 }
