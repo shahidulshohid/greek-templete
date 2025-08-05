@@ -1,7 +1,7 @@
 
 function ProjectDescriptionOne() {
     return (
-        <div className="max-w-[632px] mx-auto">
+        <div className="max-w-[794px] mx-auto">
             <div className=" bg-white">
                 {/* Title */}
                 <h2 className="text-center font-semibold text-sm mb-6 underline">
