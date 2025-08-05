@@ -29,6 +29,7 @@ import FileTwoDesignSeven from "./(alTemplete)/file-two/design-seven/page"
 import FileTwoDesignSix from "./(alTemplete)/file-two/design-six/page"
 import FileTwoDesignThree from "./(alTemplete)/file-two/design-three/page"
 import FileTwoDesignTwo from "./(alTemplete)/file-two/design-two/page"
+import FileTwoDesignEight from "./(alTemplete)/file-two/desing-eight/page"
 
 
 
@@ -55,7 +56,8 @@ function Home() {
       {/* <FileTwoDesignFour/> */}
       {/* <FileTwoDesignFive/> */}
       {/* <FileTwoDesignSix/> */}
-      <FileTwoDesignSeven/>
+      {/* <FileTwoDesignSeven/> */}
+      <FileTwoDesignEight/>
 
       {/* file three ================= */}
       {/* <FileThreeDesignOne /> */}
