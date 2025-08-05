@@ -8,6 +8,7 @@ import ProjectDescriptionTen from "./(alTemplete)/file-one/project-description-t
 import ProjectDescriptionTwo from "./(alTemplete)/file-one/project-description-two/page"
 import FileThreeDesignEight from "./(alTemplete)/file-three/design-eight/page"
 import FileThreeDesignOne from "./(alTemplete)/file-three/design-one/page"
+import FileThreeDesignThree from "./(alTemplete)/file-three/design-three/page"
 import FileThreeDesignTwo from "./(alTemplete)/file-three/design-two/page"
 
 
@@ -21,12 +22,15 @@ function Home() {
       {/* <ProjectDescriptionTwo/> */}
       {/* <ProjectDescriptionTen/> */}
       {/* <ProjectDescriptionEleven/> */}
-      
+
       {/* file three */}
-      {/* <FileFifteenDesignFive/> */}
-      {/* <FileThreeDesignEight/> */}
-      {/* <FileThreeDesignOne/> */}
-      <FileThreeDesignTwo/>
+      {/* <FileThreeDesignOne /> */}
+      {/* <FileThreeDesignTwo /> */}
+      <FileThreeDesignThree />
+      {/* <FileThreeDesignEight />  */}
+
+      {/* file fifteen  */}
+      {/* <FileFifteenDesignFive /> */}
 
     </div>
   )
