@@ -1,7 +1,7 @@
 "use client"
 import StampComponent from "@/component/shared/dashed/Dashed"
 
-export default function DesignEight() {
+export default function FileThreeDesignEight() {
 
     return (
         <div className="max-w-[794px] mx-auto p-6 bg-white">

@@ -1,11 +1,14 @@
-import DesignFive from "./(alTemplete)/file-fifteen/design-five/page"
+
+import FileFifteenDesignFive from "./(alTemplete)/file-fifteen/design-five/page"
 import ProjectDescriptionEight from "./(alTemplete)/file-one/project-description-eight/page"
 import ProjectDescriptionEleven from "./(alTemplete)/file-one/project-description-eleven/page"
 import ProjectDescriptionNine from "./(alTemplete)/file-one/project-description-nine/page"
 import ProjectDescriptionOne from "./(alTemplete)/file-one/project-description-one/page"
 import ProjectDescriptionTen from "./(alTemplete)/file-one/project-description-ten/page"
 import ProjectDescriptionTwo from "./(alTemplete)/file-one/project-description-two/page"
-import DesignEight from "./(alTemplete)/file-three/design-eight/page"
+import FileThreeDesignEight from "./(alTemplete)/file-three/design-eight/page"
+import FileThreeDesignOne from "./(alTemplete)/file-three/design-one/page"
+import FileThreeDesignTwo from "./(alTemplete)/file-three/design-two/page"
 
 
 
@@ -18,8 +21,13 @@ function Home() {
       {/* <ProjectDescriptionTwo/> */}
       {/* <ProjectDescriptionTen/> */}
       {/* <ProjectDescriptionEleven/> */}
-      {/* <DesignFive/> */}
-      <DesignEight/>
+      
+      {/* file three */}
+      {/* <FileFifteenDesignFive/> */}
+      {/* <FileThreeDesignEight/> */}
+      {/* <FileThreeDesignOne/> */}
+      <FileThreeDesignTwo/>
+
     </div>
   )
 }

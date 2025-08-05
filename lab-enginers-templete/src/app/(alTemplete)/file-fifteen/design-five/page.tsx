@@ -1,7 +1,7 @@
 "use client"
 import StampComponent from "@/component/shared/dashed/Dashed"
 
-export default function DesignFive() {
+export default function FileFifteenDesignFive() {
 
     const workItems = [
         {
@@ -141,9 +141,9 @@ export default function DesignFive() {
             <div className="space-y-6 ml-10">
                 {workItems.map((item, index) => (
                     <div key={index} className="flex gap-3">
-                        <div className="text-lg font-bold mt-1 text-black">●</div>
+                        <div className="text-lg font-semibold mt-1 text-black">●</div>
                         <div className="flex-1">
-                            <h3 className="font-bold text-black mb-2">{item.title}</h3>
+                            <h3 className="font-semibold text-black mb-2">{item.title}</h3>
                             {item.title === "Αλλαγή Χρήσης Χώρου" ? (
                                 <div className="text-justify leading-relaxed text-sm text-black">
                                     <p className="mb-2">
