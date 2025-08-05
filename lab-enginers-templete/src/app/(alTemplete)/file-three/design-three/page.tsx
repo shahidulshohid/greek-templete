@@ -64,7 +64,7 @@ export default function FileThreeDesignThree() {
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Ημερομηνία γέννησης(2):</div>
-                        <div className="flex-1 p-2 font-bold">Born date Engineer</div>
+                        <div className="flex-1 p-2 font-bold">Born date</div>
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@ export default function FileThreeDesignThree() {
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Τόπος Γέννησης</div>
-                        <div className="flex-1 p-2 font-bold">Born Town Engineer</div>
+                        <div className="flex-1 p-2 font-bold">Born Town</div>
                     </div>
                 </div>
 
@@ -112,7 +112,7 @@ export default function FileThreeDesignThree() {
                                 <div>ίου (Email):</div>
                             </div>
                         </div>
-                        <div className="w-32 p-2 ">email engineer</div>
+                        <div className="w-32 p-2 underline ">email engineer</div>
                     </div>
                 </div>
 

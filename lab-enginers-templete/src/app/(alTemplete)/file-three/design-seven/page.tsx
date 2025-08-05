@@ -1,7 +1,7 @@
 import StampComponent from "@/component/shared/dashed/Dashed";
 
 
-export default function FileThreeDesignFive() {
+export default function FileThreeDesignSeven() {
     return (
         <div className="max-w-[796px] mx-auto bg-white">
             {/* Header with coat of arms */}
@@ -34,13 +34,13 @@ export default function FileThreeDesignFive() {
                     </div>
                 </div>
 
-                {/* Name Engineer row */}
+                {/* Name Owner row */}
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Ο-Η Όνομα</div>
-                        <div className="w-40 p-2 border-r border-gray-400  font-bold">Name Engineer</div>
+                        <div className="w-40 p-2 border-r border-gray-400  font-bold">Name Owner</div>
                         <div className="w-20 p-2 border-r border-gray-400 text-sm">Επώνυμο</div>
-                        <div className="flex-1 p-2  font-bold">Surname Engineer</div>
+                        <div className="flex-1 p-2  font-bold">Surname Owner</div>
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@ export default function FileThreeDesignFive() {
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Όνομα και Επώνυμο Πατρός</div>
-                        <div className="flex-1 p-2 font-bold">Fathers name and surname Engineer</div>
+                        <div className="flex-1 p-2 font-bold">Fathers name and surname Owner</div>
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@ export default function FileThreeDesignFive() {
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Όνομα και Επώνυμο Μητρός</div>
-                        <div className="flex-1 p-2 font-bold">Mothers name and surname Engineer</div>
+                        <div className="flex-1 p-2 font-bold">Mothers name and surname Owner</div>
                     </div>
                 </div>
 
@@ -112,7 +112,7 @@ export default function FileThreeDesignFive() {
                                 <div>ίου (Email):</div>
                             </div>
                         </div>
-                        <div className="w-32 p-2 underline ">email engineer</div>
+                        <div className="w-32 p-2 underline ">email owner</div>
                     </div>
                 </div>
 
@@ -120,7 +120,7 @@ export default function FileThreeDesignFive() {
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Α.Φ.Μ.:</div>
-                        <div className="flex-1 p-2 font-bold">VAT Engineer</div>
+                        <div className="flex-1 p-2 font-bold">VAT Owner</div>
                         <div className="w-32 p-2 border-l border-gray-400 text-sm">Δ.Ο.Υ.:</div>
                     </div>
                 </div>
@@ -128,7 +128,14 @@ export default function FileThreeDesignFive() {
                 {/* Declaration text */}
                 <div className="p-4 text-sm">
                     <p className="mb-4">
-                        Με ατομική μου ευθύνη και γνωρίζοντας τις κυρώσεις(3), που προβλέπονται από τις διατάξεις της παρ. 6 του άρθρου 22 του Ν.1599/1986, δηλώνω ότι:
+                        Με ατομική μου ευθύνη και γνωρίζοντας τις κυρώσεις(3),
+                        που προβλέπονται από τις διατάξεις της παρ. 6 του άρθρου 22 του Ν.1599/1986, δηλώνω ότι:
+                    </p>
+
+                    <p className="mb-6">
+                        ως κύριος/ιδιοκτήτης του ακινήτου που βρίσκεται επί της οδού
+                        ([Address, Number, Town, Postal code], <span className="font-bold">αναθέτω</span> στον/στην Διπλωματούχο Μηχανικό <span className="font-bold">( Engineers Surname  ,
+                        Engineer's Name, Specialty Engineer AM TEE)</span>
                     </p>
 
                     <p className="mb-4 font-bold">για το έργο με τίτλο :</p>
@@ -136,23 +143,12 @@ export default function FileThreeDesignFive() {
                 </div>
 
                 {/* Additional disclaimer text */}
-                <div className="p-4 text-sm space-y-6">
-                    <p>-Το σύστημα κυκλοφορίας και φίλτρανσης του νερού (αντλία, φίλτρο, σωληνώσεις κ.λπ.),</p>
-                    <p>-Το σύστημα ηλεκτρικού υποβρύχιου φωτισμού της δεξαμενής,</p>
-                    <p>-Το σύστημα απολύμανσης του νερού (π.χ. ηλεκτρόλυση άλατος ή άλλο σύστημα),</p>
-                    <p>-Το σύστημα ηλεκτρικής τροφοδοσίας και ασφάλειας (πίνακας, διακόπτες, ρελέ διαρροής, γειώσεις, μετασχηματιστές ασφαλείας κ.λπ.), </p>
-
-                    <p className="font-bold">
-                        έχουν σχεδιαστεί και πρόκειται να υλοποιηθούν σύμφωνα με τις ισχύουσες προδιαγραφές ασφαλείας, τους σχετικούς Κανονισμούς Εγκαταστάσεων
-                        (ΕΛΟΤ HD384 ή/και αντίστοιχες ευρωπαϊκές προδιαγραφές) και τις απαιτήσεις των Υγειονομικών Διατάξεων για ιδιωτικές πισίνες.
-                    </p>
-                    <p>Ειδικότερα:</p>
-                    <p>-Η τροφοδοσία όλων των υποβρύχιων συστημάτων γίνεται με ασφαλή χαμηλή τάση (12V AC) μέσω εγκεκριμένων μετασχηματιστών,</p>
-                    <p>-Όλες οι ηλεκτρολογικές συνδέσεις θα περιλαμβάνουν προστασία έναντι ηλεκτροπληξίας, με χρήση Ρελέ Διαρροής Έντασης (RCD) ευαισθησίας ≤30mA,</p>
+                <div className="space-y-4 text-s m p-4">
                     <p>
-                        -Οι σωληνώσεις και τα Η/Μ συστήματα κατασκευάζονται από πιστοποιημένα υλικά, κατάλληλα για επαφή με νερό πισίνας και για χρήση σε εξωτερικούς χώρους.                                                               Η παρούσα δήλωση εκδίδεται για
-                        την κάλυψη των απαιτήσεων της Άδειας Μικρής Κλίμακας, σύμφωνα με τις διατάξεις του Ν.4495/2017, καθώς και των ισχυουσών κανονιστικών και υγειονομικών διατάξεων.
-                    </p>
+                        τη συνολική διαχείριση του έργου στο ηλεκτρονικό σύστημα του ΤΕΕ - eadeies που αφορά:       </p>
+                    <p>●Την εκπόνηση και υποβολή των απαραίτητων μελετών (στατικών, αρχιτεκτονικών, τεχνικών, περιβαλλοντικών κ.ά.) όπου απαιτείται.</p>
+                    <p>●Την κατάρτιση και υποβολή του φακέλου στην αρμόδια υπηρεσία (e-Άδειες / ΥΔΟΜ )</p>
+                    <p>●Τη συνεργασία με άλλους ειδικούς/μελετητές, όπου απαιτείται</p>
                 </div>
 
                 {/* Signature section */}

@@ -111,7 +111,7 @@ export default function FileThreeDesignTwo() {
                 <div>ίου (Email):</div>
               </div>
             </div>
-            <div className="w-32 p-2 ">email owner</div>
+            <div className="w-32 p-2 underline ">email owner</div>
           </div>
         </div>
 
