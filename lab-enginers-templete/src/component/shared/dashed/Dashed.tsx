@@ -16,7 +16,7 @@ const StampComponent: React.FC<StampComponentProps> = ({
   ],
 }) => {
   return (
-    <div className="border-3 border-dashed border-gray-800 text-center p-4">
+    <div className="border-3 border-dashed border-gray-800 text-center p-4 mb-8">
       <h4 className="text-lg font-bold mb-2">{title}</h4>
       {instructions.map((instruction, index) => (
         <p
