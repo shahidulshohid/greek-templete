@@ -6,6 +6,7 @@ import ProjectDescriptionNine from "./(alTemplete)/file-one/project-description-
 import ProjectDescriptionOne from "./(alTemplete)/file-one/project-description-one/page"
 import ProjectDescriptionTen from "./(alTemplete)/file-one/project-description-ten/page"
 import ProjectDescriptionTwo from "./(alTemplete)/file-one/project-description-two/page"
+import ProjectDescriptionThree from "./(alTemplete)/file-one/ProjectDescriptionThree/page"
 import FileThreeDesignEight from "./(alTemplete)/file-three/design-eight/page"
 import FileThreeDesignEleven from "./(alTemplete)/file-three/design-eleven/page"
 import FileThreeDesignFive from "./(alTemplete)/file-three/design-five/page"
@@ -23,14 +24,16 @@ import FileThreeDesignNine from "./(alTemplete)/file-three/desing-nine/page"
 function Home() {
   return (
     <div className='p-8'>
+      {/* file one =================== */}
       {/* <ProjectDescriptionOne/> */}
+      {/* <ProjectDescriptionTwo/> */}
+      <ProjectDescriptionThree/>
       {/* <ProjectDescriptionEight/> */}
       {/* <ProjectDescriptionNine/> */}
-      {/* <ProjectDescriptionTwo/> */}
       {/* <ProjectDescriptionTen/> */}
-      <ProjectDescriptionEleven/>
+      {/* <ProjectDescriptionEleven/> */}
 
-      {/* file three */}
+      {/* file three ================= */}
       {/* <FileThreeDesignOne /> */}
       {/* <FileThreeDesignTwo /> */}
       {/* <FileThreeDesignThree /> */}
@@ -41,7 +44,7 @@ function Home() {
       {/* <FileThreeDesignEight />  */}
       {/* <FileThreeDesignNine/> */}
       {/* <FileThreeDesignTen/> */}
-      <FileThreeDesignEleven />
+      {/* <FileThreeDesignEleven /> */}
 
       {/* file fifteen  */}
       {/* <FileFifteenDesignFive /> */}
