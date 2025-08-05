@@ -3,7 +3,7 @@ import StampComponent from "@/component/shared/dashed/Dashed";
 
 export default function FileThreeDesignThree() {
     return (
-        <div className="max-w-4xl mx-auto p-4 bg-white">
+        <div className="max-w-[796px] mx-auto bg-white">
             {/* Header with coat of arms */}
             <div className="text-center mb-6">
                 <div className="w-16 h-16 mx-auto mb-4 bg-gray-200 rounded-full flex items-center justify-center">
@@ -34,13 +34,13 @@ export default function FileThreeDesignThree() {
                     </div>
                 </div>
 
-                {/* Name Owner row */}
+                {/* Name Engineer row */}
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Ο-Η Όνομα</div>
                         <div className="w-40 p-2 border-r border-gray-400  font-bold">Name Engineer</div>
                         <div className="w-20 p-2 border-r border-gray-400 text-sm">Επώνυμο</div>
-                        <div className="flex-1 p-2  font-bold">Surname Owner</div>
+                        <div className="flex-1 p-2  font-bold">Surname Engineer</div>
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@ export default function FileThreeDesignThree() {
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Όνομα και Επώνυμο Πατρός</div>
-                        <div className="flex-1 p-2 font-bold">Fathers name and surname Owner</div>
+                        <div className="flex-1 p-2 font-bold">Fathers name and surname Engineer</div>
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@ export default function FileThreeDesignThree() {
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Όνομα και Επώνυμο Μητρός</div>
-                        <div className="flex-1 p-2 font-bold">Mothers name and surname Owner</div>
+                        <div className="flex-1 p-2 font-bold">Mothers name and surname Engineer</div>
                     </div>
                 </div>
 
@@ -64,7 +64,7 @@ export default function FileThreeDesignThree() {
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Ημερομηνία γέννησης(2):</div>
-                        <div className="flex-1 p-2 font-bold">Born date Owner</div>
+                        <div className="flex-1 p-2 font-bold">Born date Engineer</div>
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@ export default function FileThreeDesignThree() {
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Τόπος Γέννησης</div>
-                        <div className="flex-1 p-2 font-bold">Born Town owner</div>
+                        <div className="flex-1 p-2 font-bold">Born Town Engineer</div>
                     </div>
                 </div>
 
@@ -112,7 +112,7 @@ export default function FileThreeDesignThree() {
                                 <div>ίου (Email):</div>
                             </div>
                         </div>
-                        <div className="w-32 p-2 ">email owner</div>
+                        <div className="w-32 p-2 ">email engineer</div>
                     </div>
                 </div>
 
@@ -120,7 +120,7 @@ export default function FileThreeDesignThree() {
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Α.Φ.Μ.:</div>
-                        <div className="flex-1 p-2 font-bold">VAT owner</div>
+                        <div className="flex-1 p-2 font-bold">VAT Engineer</div>
                         <div className="w-32 p-2 border-l border-gray-400 text-sm">Δ.Ο.Υ.:</div>
                     </div>
                 </div>
