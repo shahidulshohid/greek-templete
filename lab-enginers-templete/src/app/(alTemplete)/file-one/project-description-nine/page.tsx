@@ -30,11 +30,11 @@ export default function WasteManagementForm() {
         {/* Form Fields */}
         <div className="space-y-8">
           {/* Project Title */}
-          <div className="flex items-center">
-            <label className="text-black font-bold text-sm flex-1">
+          <div className="grid grid-cols-5">
+            <label className="text-black font-bold text-sm col-span-2">
               ΤΙΤΛΟΣ ΕΡΓΟΥ:
             </label>
-            <div className="flex-1">
+            <div className="col-span-3">
               <input
                 type="text"
                 value={formData.projectDescription}
@@ -46,11 +46,11 @@ export default function WasteManagementForm() {
           </div>
 
           {/* Responsible Authority */}
-          <div className="flex items-center">
-            <label className="text-black font-bold text-sm flex-1">
+          <div className="grid grid-cols-5">
+            <label className="text-black font-bold text-sm col-span-2">
               ΑΡΜΟΔΙΑ ΑΡΧΗ ΠΟΥ ΥΠΟΒΑΛΛΕΤΑΙ:
             </label>
-            <div className="flex-1">
+            <div className="col-span-3">
               <input
                 type="text"
                 value={formData.responsibleAuthority}
@@ -62,11 +62,11 @@ export default function WasteManagementForm() {
           </div>
 
           {/* Submission Date */}
-          <div className="flex items-center">
-            <label className="text-black font-bold text-sm flex-1">
+          <div className="grid grid-cols-5">
+            <label className="text-black font-bold text-sm col-span-2">
               ΗΜΕΡΟΜΗΝΙΑ ΥΠΟΒΟΛΗΣ:
             </label>
-            <div className="flex-1">
+            <div className="col-span-3">
               <input
                 type="text"
                 value={formData.submissionDate}
@@ -78,11 +78,11 @@ export default function WasteManagementForm() {
           </div>
 
           {/* Protocol Number */}
-          <div className="flex items-center">
-            <label className="text-black font-bold text-sm flex-1">
+          <div className="grid grid-cols-5">
+            <label className="text-black font-bold text-sm col-span-2">
               ΑΡ. ΠΡΩΤΟΚΟΛΛΟΥ ΚΑΤΑΘΕΣΗΣ:
             </label>
-            <div className="flex-1">
+            <div className="col-span-3">
               <input
                 type="text"
                 value={formData.protocolNumber}

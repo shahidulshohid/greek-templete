@@ -996,12 +996,6 @@ export default function Component() {
     },
   ]
 
-  const handleInputChange = (field: string, value: string) => {
-    setFormData((prev) => ({
-      ...prev,
-      [field]: value,
-    }))
-  }
 
   const grandTotal = categories.reduce((sum, category) => sum + category.subtotal, 0)
   const finalTotal = grandTotal + formData.unforeseen
@@ -1015,36 +1009,18 @@ export default function Component() {
       </div>
 
       {/* Project Info */}
-      <div className="mb-6 space-y-2">
-        <div className="flex items-center gap-2">
-          <span className="font-medium">Εργοδότες *:</span>
-          <input
-            type="text"
-            value={formData.employer}
-            onChange={(e) => handleInputChange("employer", e.target.value)}
-            className="flex-1 p-1 border-none outline-none bg-transparent  font-medium placeholder:"
-            placeholder="OWNER/OWNERS"
-          />
+      <div className="mb-6 space-y-4">
+        <div className="flex items-center gap-4">
+          <span className="font-medium w-1/4">Εργοδότες *:</span>
+          <h3 className="flex-1 text-gray-700">OWNER/OWNERS</h3>
         </div>
-        <div className="flex items-center gap-2">
-          <span className="font-medium">Έργο *:</span>
-          <input
-            type="text"
-            value={formData.project}
-            onChange={(e) => handleInputChange("project", e.target.value)}
-            className="flex-1 p-1 border-none outline-none bg-transparent  font-medium placeholder:"
-            placeholder="PROJECT DESCRIPTION"
-          />
+        <div className="flex items-center gap-4">
+          <span className="font-medium w-1/4">Έργο *:</span>
+          <h3 className="flex-1 text-gray-700">PROJECT DESCRIPTION</h3>
         </div>
-        <div className="flex items-center gap-2">
-          <span className="font-medium">Διεύθυνση Έργου *:</span>
-          <input
-            type="text"
-            value={formData.address}
-            onChange={(e) => handleInputChange("address", e.target.value)}
-            className="flex-1 p-1 border-none outline-none bg-transparent  font-medium placeholder:"
-            placeholder="ADDRESS, TOWN/AREA, POSTAL CODE (FOR BUILDING)"
-          />
+        <div className="flex items-center gap-4">
+          <span className="font-medium w-1/4">Διεύθυνση Έργου *:</span>
+          <h3 className="flex-1 text-gray-700">ADDRESS, TOWN/AREA, POSTAL CODE (FOR BUILDING)</h3>
         </div>
       </div>
 
