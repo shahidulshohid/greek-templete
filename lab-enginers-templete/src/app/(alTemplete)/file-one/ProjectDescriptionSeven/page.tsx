@@ -132,7 +132,7 @@ export default function ProjectDescriptionSeven() {
                     <p className="my-4">ως κύριος/ιδιοκτήτης του ακινήτου που βρίσκεται επί της οδού ([Address, Number, Town, Postal code], <span className="font-bold">αναθέτω</span> στον/στην Διπλωματούχο
                         Μηχανικό <span className="font-bold">( Engineers Surname  ,  Engineer's Name, Specialty Engineer AM TEE)</span></p>
 
-                    <p className=" font-bold mt-6 mb-1">για το έργο με τίτλο :</p>
+                    <p className=" font-bold mt-6">για το έργο με τίτλο :</p>
                     <p className=" mb-6">PROJECT DESCRIPTION</p>
                 </div>
 

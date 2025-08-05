@@ -131,7 +131,7 @@ export default function ProjectDescriptionThree() {
                         Με ατομική μου ευθύνη και γνωρίζοντας τις κυρώσεις(3), που προβλέπονται από τις διατάξεις της παρ. 6 του άρθρου 22 του Ν.1599/1986, δηλώνω ότι:
                     </p>
 
-                    <p className="mb-4 font-bold">
+                    <p className="font-bold">
                         για το οικοδομικό έργο με τίτλο :</p>
                     <p className="mb-6">PROJECT DESCRIPTION</p>
                 </div>

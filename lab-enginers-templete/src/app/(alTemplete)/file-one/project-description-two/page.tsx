@@ -138,7 +138,7 @@
               Εργασιών Μικρής Κλίμακας για την εκτέλεση των  εργασιών,
             </p>
 
-            <p className="mb-4 font-bold">για το έργο με τίτλο :</p>
+            <p className="font-bold">για το έργο με τίτλο :</p>
             <p className=" mb-6">PROJECT DESCRIPTION</p>
           </div>
 
