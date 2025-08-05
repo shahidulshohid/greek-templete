@@ -3,7 +3,7 @@
 
 import StampComponent from "@/component/shared/dashed/Dashed"
 
-export default function FileTwoDesignEight() {
+export default function FileTwoDesignNine() {
 
   return (
     <div className="max-w-[794px] mx-auto p-6 bg-white">
@@ -115,7 +115,6 @@ export default function FileTwoDesignEight() {
             Τοπική ή συνολική εφαρμογή ελαστομερούς υδατοστεγανωτικής βαφής, αν απαιτείται από τη φύση των επεμβάσεων.
           </p>
         </div>
-        {/* nine  */}
         <div>
           <h3 className="font-bold"></h3>
           <p className="text-sm">
