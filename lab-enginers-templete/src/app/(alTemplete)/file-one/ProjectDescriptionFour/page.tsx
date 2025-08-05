@@ -132,7 +132,7 @@ export default function ProjectDescriptionFour() {
 
           <p className="my-4">ότι εφαρμόζοντας τις ισχύουσες γενικές και ειδικές πολεοδομικές διατάξεις <span className="font-bold">αναλαμβάνω</span> για το έργο</p>
 
-          <p className=" font-bold mb-6">PROJECT DESCRIPTION</p>
+          <p className=" mb-6">PROJECT DESCRIPTION</p>
         </div>
 
         {/* Additional disclaimer text */}

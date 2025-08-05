@@ -133,7 +133,7 @@ export default function ProjectDescriptionThree() {
 
                     <p className="mb-4 font-bold">
                         για το οικοδομικό έργο με τίτλο :</p>
-                    <p className=" font-bold mb-6">PROJECT DESCRIPTION</p>
+                    <p className="mb-6">PROJECT DESCRIPTION</p>
                 </div>
 
                 {/* Additional disclaimer text */}
