@@ -1,10 +1,9 @@
 
-
 "use client"
 
 import StampComponent from "@/component/shared/dashed/Dashed"
 
-export default function FileTwoDesignTwelve() {
+export default function FileFourDesignNine() {
   const descriptions = [
     {
       "id": 1,
@@ -200,12 +199,12 @@ export default function FileTwoDesignTwelve() {
 
           <div className="mb-4">
             <h3 className="font-medium mb-2 underline">1. TECHNICAL DESCRIPTION OF PROJECT</h3>
-            <div className=" ">
+            <div className="mb-2">
               {/* Mapping over the fetched data */}
               {descriptions.map((description, i) => (
                 <div key={i} className="flex items-center gap-2">
-                  <span className="w-6">{i + 1}</span>
-                  <span className="flex-1 "></span>
+                  <span className="">{i + 1}</span>
+                  <span className=" "></span>
                 </div>
               ))}
             </div>
@@ -286,8 +285,8 @@ export default function FileTwoDesignTwelve() {
             </p>
           </div>
 
-          <div className="mt-6 text-right">
-            <div className="flex justify-between items-start">
+          <div className="mt-12 text-right">
+            <div className="flex justify-start items-start gap-30">
               <div className="">
                 <h3 className="text-center mb-4">Ο ΣΥΝΤΑΞΑΣ</h3>
                 {/* Dashed Border Box = common component*/}
@@ -300,9 +299,9 @@ export default function FileTwoDesignTwelve() {
                   ]}
                 />
               </div>
-              <div className="flex items-center justify-end gap-2">
-                <span className="">Ημερομηνία :</span>
-                <span className="">2/8/2025</span>
+              <div className="flex items-center justify-center gap-2">
+                <span className=" ">Ημερομηνία :</span>
+                <span className=" ">2/8/2025</span>
               </div>
             </div>
           </div>
@@ -347,10 +346,8 @@ export default function FileTwoDesignTwelve() {
 
         {/* Β. ΜΗΤΡΩΟ ΕΡΓΟΥ */}
         <div className="p-4">
-          <h2 className="font-bold mb-4">Β. ΜΗΤΡΩΟ ΕΡΓΟΥ</h2>
-
           <div className="mb-4">
-            <h3 className="font-medium mb-2 underline">1. PROJECT WORKS FOR TECHNICAL DESCRIPTION</h3>
+            <h3 className="font-medium mb-2">PROJECT WORKS FOR TECHNICAL DESCRIPTION</h3>
             <div className="mb-2">
               {/* Mapping over the fetched data */}
               {descriptions2.map((description, i) => (
@@ -370,7 +367,7 @@ export default function FileTwoDesignTwelve() {
             Β. ΚΙΝΔΥΝΟΙ ΠΟΥ ΕΝΔΕΧΕΤΑΙ ΝΑ ΠΑΡΟΥΣΙΑΣΤΟΥΝ
           </div>
 
-          <div className="p-3 border-b border-gray-400 text-sm">
+          <div className="px-2 border-b border-gray-400 text-sm">
             Η συγκεκριμένη κατασκευή δεν μπορεί να θεωρηθεί ιδιαίτερα επικίνδυνη κατά την εκτέλεση των διάφορων φάσεων
             των έργων. Οι πιθανότεροι κίνδυνοι είναι:
           </div>
@@ -388,7 +385,7 @@ export default function FileTwoDesignTwelve() {
           <div className="border-b border-gray-400">
             <div className="grid grid-cols-12">
               <div className="col-span-1 border-r border-gray-400 p-2 text-center font-bold">#REF!</div>
-              <div className="col-span-11 p-2 text-sm">Πιθανός κίνδυνος πτώσεως αντικειμένων και υλικών.</div>
+              <div className="col-span-11 p-2 text-sm">Ειδικοί κίνδυνοι του παραρτ. ΙΙΙ του ΠΔ 305/96 (πλην &1) δεν υπάρχουν.</div>
             </div>
           </div>
         </div>
@@ -431,39 +428,55 @@ export default function FileTwoDesignTwelve() {
           </div>
         </div>
 
-        <div className="ml-2">
-          <h3 className="font-bold mt-6 mb-2">Δ. ΠΡΟΣΘΕΤΑ ΣΤΟΙΧΕΙΑ</h3>
-          <div className="ml-2 space-y-3">
-            <div>
-              <p className="text-sm">1. Προσπέλαση στο εργοτάξιο, πρόσβαση στις θέσεις εργασίας:</p>
-              <p className="text-sm">Δεν απαιτείται ιδιαίτερη μέριμνα πέραν των συνηθισμένων.</p>
-            </div>
-            <div>
-              <p className="text-sm">2. Κυκλοφορία οχημάτων και πεζών εντός του εργοταξίου:</p>
-              <p className="text-sm"> Δεν απαιτείται ιδιαίτερη μέριμνα πέραν των συνηθισμένων.</p>
-            </div>
-            <div>
-              <p className="text-sm">3. Χώροι αποθήκευσης υλικών και τρόπος αποκομιδής αχρήστων:</p>
-              <p className="text-sm">Αποθήκευση στον ακάλυπτο χώρο της οικοδομής και αποκομιδή αχρήστων με μηχανικά μέσα.</p>
-            </div>
-            <div>
-              <p className="text-sm">4. Συνθήκες αποκομιδής επικίνδυνων υλικών:</p>
-              <p className="text-sm">Δεν θα χρησιμοποιηθούν επικίνδυνα υλικά.</p>
-            </div>
-            <div>
-              <p className="text-sm">5. Χώροι υγιεινής, εστίασης και πρώτων βοηθειών:
-              </p>
-              <p className="text-sm">Θα δημιουργηθεί πρόχειρο W.C. και φαρμακείο στο ισόγειο.</p>
-            </div>
-            <div>
-              <p className="text-sm">6. Κατασκευή ικριωμάτων:</p>
-              <p className="text-sm"> Συνήθους μορφής.</p>
-            </div>
+        <div className="mt-6">
+          <h1 className="p-2 font-bold mt-20">
+            Δ. ΠΡΟΣΘΕΤΑ ΣΤΟΙΧΕΙΑ
+          </h1>
+
+          <div className="space-y-6 text-sm">
+            <ul className="p-2 space-y-4">
+              <li className="flex items-center gap-2">
+                <div>
+                  <p>1. Προσπέλαση στο εργοτάξιο, πρόσβαση στις θέσεις εργασίας:</p>
+                  <p className="ml-4">Δεν απαιτείται ιδιαίτερη μέριμνα πέραν των συνθηκών.</p>
+                </div>
+              </li>
+              <li className="flex items-center gap-2">
+                <div>
+                  <p>2. Κυκλοφορία οχημάτων και πεζών εντός του εργοταξίου:</p>
+                  <p className="ml-4">Δεν απαιτείται ιδιαίτερη μέριμνα πέραν των συνθηκών.</p>
+                </div>
+              </li>
+              <li className="flex items-center gap-2">
+                <div>
+                  <p>3. Χώροι αποθήκευσης υλικών και τρόπος αποκομιδής αχρήστων:</p>
+                  <p className="ml-4">Αποθήκευση στον ακάλυπτο χώρο της οικοδομής και αποκομιδή αχρήστων με μηχανικά μέσα.</p>
+                </div>
+              </li>
+              <li className="flex items-center gap-2">
+                <div>
+                  <p>4. Συγκέντρωση επικίνδυνων υλικών για αποκομιδή και σωστή διάθεση.</p>
+                  <p className="ml-4">Διευθέτηση αποκομιδής επικίνδυνων υλικών:</p>
+                </div>
+              </li>
+              <li className="flex items-center gap-2">
+                <div>
+                  <p>5. Χώροι υγιεινής, εστίασης και πρώτων βοηθειών:</p>
+                  <p className="ml-4">Θα δημιουργηθεί προχείρο W.C. και φραγμένο από το ισόγειο.</p>
+                </div>
+              </li>
+              <li className="flex items-center gap-2">
+                <div>
+                  <p>6. Κατασκευή ικριωμάτων:</p>
+                  <p className="ml-4">Κατασκευή ικριωμάτων: Συνήθους μορφής </p>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
 
-        <div className="mt-6 text-right p-5">
-          <div className="flex justify-between items-start">
+        <div className="mt-12 text-right ml-6">
+          <div className="flex justify-start items-start gap-30">
             <div className="">
               <h3 className="text-center mb-4">Ο ΣΥΝΤΑΞΑΣ</h3>
               {/* Dashed Border Box = common component*/}
@@ -476,9 +489,9 @@ export default function FileTwoDesignTwelve() {
                 ]}
               />
             </div>
-            <div className="flex items-center justify-end gap-2">
-              <span className="">Ημερομηνία :</span>
-              <span className="">2/8/2025</span>
+            <div className="flex items-center justify-center gap-2">
+              <span className=" ">Ημερομηνία :</span>
+              <span className=" ">2/8/2025</span>
             </div>
           </div>
         </div>
