@@ -1,3 +1,4 @@
+
 "use client"
 import StampComponent from "@/component/shared/dashed/Dashed"
 import { useState } from "react"
@@ -18,7 +19,7 @@ interface BudgetCategory {
   subtotal: number
 }
 
-export default function Component() {
+export default function FileThreeDesignEleven() {
   const [formData, setFormData] = useState({
     employer: "",
     project: "",
@@ -995,8 +996,6 @@ export default function Component() {
       ],
     },
   ]
-
-
   const grandTotal = categories.reduce((sum, category) => sum + category.subtotal, 0)
   const finalTotal = grandTotal + formData.unforeseen
 
@@ -1023,7 +1022,6 @@ export default function Component() {
           <h3 className="flex-1 text-gray-700">ADDRESS, TOWN/AREA, POSTAL CODE (FOR BUILDING)</h3>
         </div>
       </div>
-
       {/* Budget Title */}
       <div className="text-center bg-gray-200 p-2 border border-gray-400 border-b-0">
         <h2 className="text-lg font-bold ">ΑΝΑΛΥΤΙΚΟΣ ΠΡΟΫΠΟΛΟΓΙΣΜΟΣ ΒΑΣΕΙ ΠΑΡΑΡΤΗΜΑΤΟΣ Β' Ν.4495/17)</h2>
@@ -1097,27 +1095,42 @@ export default function Component() {
           </div>
         </div>
       </div>
-
       {/* Signature Section */}
       <div className="mt-6 text-right p-5">
         <div className="flex justify-between items-start">
-          <div className="flex items-center justify-end gap-2">
+          <div className="flex items-center justify-between gap-2">
             <span className="">Ημερομηνία :</span>
-            <span className="">2/8/2025</span>
+            <span className="ml-30">6/25/2025</span>
           </div>
           <div className="">
-            <h3 className="text-center mb-4">Ο ΣΥΝΤΑΞΑΣ</h3>
-            {/* Dashed Border Box = common component*/}
-            <StampComponent
-              title="ΣΦΡΑΓΙΔΑ ΜΗΧΑΝΙΚΟΥ"
-              instructions={[
-                "Με δεξί κλικ",
-                "Αλλαγή εικόνας",
-                " Βάζετε την σφραγίδα σας",
-              ]}
-            />
+            <h3 className="text-center mb-4">Ο Συντάξας Μηχανικός</h3>
+            <h3 className="text-center mb-4">SIGN ENGINEER</h3>
           </div>
         </div>
+      </div>
+
+      <div className="grid grid-cols-3 mb-2">
+        <div className="col-span-1"></div>
+        <div className="col-span-2 flex justify-center gap-6">
+          <p className="w-1/2">
+            Here, the date the engineer starts the project should automatically appear.
+          </p>
+          <p className="w-1/2">
+            stamp and signature of an engineer, he should save it in his profile and display it there or if he doesn't want it for personal data reasons, we put a picture and he changes it
+          </p>
+        </div>
+      </div>
+
+      <div className="flex flex-col items-end">
+        {/* Dashed Border Box = common component */}
+        <StampComponent
+          title="ΣΦΡΑΓΙΔΑ ΜΗΧΑΝΙΚΟΥ"
+          instructions={[
+            "Με δεξί κλικ",
+            "Αλλαγή εικόνας",
+            " Βάζετε την σφραγίδα σας",
+          ]}
+        />
       </div>
     </div >
   )

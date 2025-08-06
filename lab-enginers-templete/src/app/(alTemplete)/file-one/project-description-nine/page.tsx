@@ -18,11 +18,11 @@ export default function WasteManagementForm() {
   };
 
   return (
-    <div className="max-w-[1000px] mx-auto bg-[#99cc00] pb-35 pt-5">
+    <div className="max-w-[794px] mx-auto bg-[#99cc00] pb-35 p-5">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-2xl font-semibold text-black tracking-wide">
+          <h1 className="text-xl font-semibold text-black tracking-wide">
             ΣΤΟΙΧΕΙΑ ΔΙΑΧΕΙΡΙΣΗΣ ΑΠΟΒΛΗΤΩΝ
           </h1>
         </div>
@@ -30,11 +30,11 @@ export default function WasteManagementForm() {
         {/* Form Fields */}
         <div className="space-y-8">
           {/* Project Title */}
-          <div className="flex items-center">
-            <label className="text-black font-semibold text-lg flex-1">
+          <div className="grid grid-cols-5">
+            <label className="text-black font-bold text-sm col-span-2">
               ΤΙΤΛΟΣ ΕΡΓΟΥ:
             </label>
-            <div className="flex-1">
+            <div className="col-span-3">
               <input
                 type="text"
                 value={formData.projectDescription}
@@ -46,11 +46,11 @@ export default function WasteManagementForm() {
           </div>
 
           {/* Responsible Authority */}
-          <div className="flex items-center">
-            <label className="text-black font-semibold text-lg flex-1">
+          <div className="grid grid-cols-5">
+            <label className="text-black font-bold text-sm col-span-2">
               ΑΡΜΟΔΙΑ ΑΡΧΗ ΠΟΥ ΥΠΟΒΑΛΛΕΤΑΙ:
             </label>
-            <div className="flex-1">
+            <div className="col-span-3">
               <input
                 type="text"
                 value={formData.responsibleAuthority}
@@ -62,11 +62,11 @@ export default function WasteManagementForm() {
           </div>
 
           {/* Submission Date */}
-          <div className="flex items-center">
-            <label className="text-black font-semibold text-lg flex-1">
+          <div className="grid grid-cols-5">
+            <label className="text-black font-bold text-sm col-span-2">
               ΗΜΕΡΟΜΗΝΙΑ ΥΠΟΒΟΛΗΣ:
             </label>
-            <div className="flex-1">
+            <div className="col-span-3">
               <input
                 type="text"
                 value={formData.submissionDate}
@@ -78,17 +78,17 @@ export default function WasteManagementForm() {
           </div>
 
           {/* Protocol Number */}
-          <div className="flex items-center">
-            <label className="text-black font-semibold text-lg flex-1">
+          <div className="grid grid-cols-5">
+            <label className="text-black font-bold text-sm col-span-2">
               ΑΡ. ΠΡΩΤΟΚΟΛΛΟΥ ΚΑΤΑΘΕΣΗΣ:
             </label>
-            <div className="flex-1">
+            <div className="col-span-3">
               <input
                 type="text"
                 value={formData.protocolNumber}
                 onChange={(e) => handleInputChange('protocolNumber', e.target.value)}
                 className="w-full p-3 border-1 border-black bg-white text-black text-base"
-                placeholder=""
+                placeholder="-"
                 style={{ minHeight: '48px' }}
               />
             </div>

@@ -1,6 +1,7 @@
 
+  
 
-  export default function ProjectDescriptionTwo() {
+  export default function FileTwoDesignTwo() {
     return (
       <div className="max-w-[794px] mx-auto p-4 bg-white">
         {/* Header with coat of arms */}
@@ -138,7 +139,7 @@
               Εργασιών Μικρής Κλίμακας για την εκτέλεση των  εργασιών,
             </p>
 
-            <p className="font-bold">για το έργο με τίτλο :</p>
+            <p className=" font-bold">για το έργο με τίτλο :</p>
             <p className=" mb-6">PROJECT DESCRIPTION</p>
           </div>
 

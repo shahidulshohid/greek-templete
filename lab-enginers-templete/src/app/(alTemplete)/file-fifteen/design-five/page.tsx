@@ -1,8 +1,7 @@
 "use client"
 import StampComponent from "@/component/shared/dashed/Dashed"
-import { useState } from "react"
 
-export default function Component() {
+export default function FileFifteenDesignFive() {
 
     const workItems = [
         {
@@ -126,25 +125,25 @@ export default function Component() {
                     <h3 className=" text-sm">ADDRESS, TOWN/AREA , POSTAL CODE ( FOR BUILDING)</h3>
                 </div>
 
-                <div className="flex items-start justify-between max-w-[400px] ml-[25px] text-sm">
+                <div className="flex items-start justify-between max-w-[400px] ml-[40px] text-sm">
                     <span className="">Ιδιοκτήτης:</span>
                     <h3 className=" text-sm">OWNER/OWNERS</h3>
                 </div>
             </div>
 
             {/* Main Description */}
-            <div className="text-sm mb-4 ml-6">
+            <div className="text-sm mb-4 ml-10">
                 <p>Στο ακίνητο <span className="font-semibold">Description for building/ horiontal property</span> επί της οδού <br /> <span className="font-semibold">Address,Town/Area , postal code ( FOR BUILDING),</span>
                     πρόκειται να <br /> εκτελεσθούν οι παρακάτω εργασίες :</p>
             </div>
 
             {/* Work Items List */}
-            <div className="space-y-6 ml-6">
+            <div className="space-y-6 ml-10">
                 {workItems.map((item, index) => (
                     <div key={index} className="flex gap-3">
-                        <div className="text-lg font-bold mt-1 text-black">●</div>
+                        <div className="text-lg font-semibold mt-1 text-black">●</div>
                         <div className="flex-1">
-                            <h3 className="font-bold text-black mb-2">{item.title}</h3>
+                            <h3 className="font-semibold text-black mb-2">{item.title}</h3>
                             {item.title === "Αλλαγή Χρήσης Χώρου" ? (
                                 <div className="text-justify leading-relaxed text-sm text-black">
                                     <p className="mb-2">
