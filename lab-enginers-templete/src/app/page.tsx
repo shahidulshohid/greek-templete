@@ -68,6 +68,7 @@ import DesignNine from "./(alTemplete)/file-eight/design-nine/page";
 import DesignTen from "./(alTemplete)/file-eight/design-ten/page";
 import NineFileDesignSix from "./(alTemplete)/file-eleven/elevenFileDesignSix/page";
 import ElevenFileDesignSix from "./(alTemplete)/file-eleven/elevenFileDesignSix/page";
+import ElevenFileDesignThirteen from "./(alTemplete)/file-eleven/elevenFileDesignThirteen/page";
 
 
 function Home() {
@@ -152,7 +153,8 @@ function Home() {
 
 
       {/* file eleven */}
-      <ElevenFileDesignSix />
+      {/* <ElevenFileDesignSix /> */}
+      <ElevenFileDesignThirteen />
     </div>
   );
 }
