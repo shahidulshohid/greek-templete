@@ -1,8 +1,7 @@
 import StampComponent from "@/component/shared/dashed/Dashed";
 
 
-
-export default function FileFiveDesignThree() {
+export default function FileFiveDesignFour() {
     return (
         <div className="max-w-[794px] mx-auto p-4 bg-white">
             {/* Header with coat of arms */}
@@ -140,16 +139,9 @@ export default function FileFiveDesignThree() {
                 {/* Additional disclaimer text */}
                 <div className="p-4 text-sm ">
                     <p className="mb-6">
-                        μετά από αυτοψία και έλεγχο των τοπογραφικών στοιχείων της περιοχής, <span className="font-bold">βεβαιώνω ότι</span> <br /> το γήπεδο/οικόπεδο που βρίσκεται στη θέση:
-                        Address, Town/Area , postal code ( FOR BUILDING) <br /> <span className="font-bold">απέχει σε ευθεία απόσταση μεγαλύτερη των 500 μέτρων από τη γραμμή αιγιαλού / θάλασσα.</span>
-                    </p>
-                    <p className="mb-6">
-                        Η εκτίμηση της απόστασης έγινε βάσει:Τοπογραφικού διαγράμματος,Μετρήσεων
-                        με χρήση γεωχωρικών εργαλείων (Google Earth ή GIS),Υφιστάμενων χαρτογραφικών δεδομένων,Επιτόπιας αυτοψίας
-                    </p>
-                    <p className="mb-6">
-                        Η παρούσα δήλωση αφορά την απαλλαγή από τις ειδικές απαιτήσεις της κείμενης νομοθεσίας που
-                        αφορούν έργα ή επεμβάσεις εντός ζώνης 500 μέτρων από τη θάλασσα.
+                        <span className="font-semibold">δεν προβλέπεται η παραγωγή αποβλήτων τύπου ΑΕΚΚ</span> (Απόβλητα Εκσκαφών, Κατασκευών και Κατεδαφίσεων),
+                        καθώς οι προβλεπόμενες εργασίες δεν περιλαμβάνουν καθαιρέσεις, εκσκαφές ή κατασκευαστικές επεμβάσεις
+                        που να παράγουν απόβλητα ΑΕΚΚ.
                     </p>
                 </div>
 
