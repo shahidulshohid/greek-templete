@@ -60,6 +60,14 @@ import FileTwoDesignThree from "./(alTemplete)/file-two/design-three/page"
 import FileTwoDesignTwelve from "./(alTemplete)/file-two/design-twelve/page"
 import FileTwoDesignTwo from "./(alTemplete)/file-two/design-two/page"
 import FileTwoDesignNine from "./(alTemplete)/file-two/desing-nine/page"
+import FileFourteenDesignThree from "./(alTemplete)/file-fourteen/design-three/page"
+import FileFourteenDesignFour from "./(alTemplete)/file-fourteen/design-four/page"
+import FileFourteenDesignFive from "./(alTemplete)/file-fourteen/design-five/page"
+import FileFouteenDesignSix from "./(alTemplete)/file-fourteen/design-six/page"
+import FileFourteenDesignSeven from "./(alTemplete)/file-fourteen/design-seven/page"
+import FileFourteenDesignEight from "./(alTemplete)/file-fourteen/design-eight/page"
+import FileFourteenDesignNine from "./(alTemplete)/file-fourteen/design-nine/page"
+import FileFourteenDesignTen from "./(alTemplete)/file-fourteen/design-ten/page"
 import FileTwoDesignThirteen from "./(alTemplete)/file-two/design-thirteen/page"
 import FileFourDesignOne from "./(alTemplete)/file-four/design-one/page"
 import FileFourDesignTwo from "./(alTemplete)/file-four/design-two/page"
@@ -99,6 +107,8 @@ function Home() {
 
 
       {/* <DesignFive/> */}
+
+      {/* file Nine  */}
       {/* <NineFileDesignOne></NineFileDesignOne> */}
       {/* <NineFileDesignTwo></NineFileDesignTwo> */}
       {/* <NineFileDesignThree></NineFileDesignThree> */}
@@ -112,6 +122,8 @@ function Home() {
       {/* <NineFileDesignEleven></NineFileDesignEleven> */}
      {/* <NineFileDesignTwelve></NineFileDesignTwelve> */}
       {/* <NineFileDesignThirteen></NineFileDesignThirteen> */}
+
+      {/* file Ten  */}
       {/* <TenFileDesignThree></TenFileDesignThree> */}
       {/* <TenFileDesignFour></TenFileDesignFour> */}
       {/* <TenFileDesignFive></TenFileDesignFive> */}
@@ -155,6 +167,16 @@ function Home() {
       {/* <FileThreeDesignTen/> */}
       {/* <FileThreeDesignEleven /> */}
 
+
+      {/* file Fourteen */}
+      {/* <FileFourteenDesignThree></FileFourteenDesignThree> */}
+      {/* <FileFourteenDesignFour></FileFourteenDesignFour> */}
+      {/* <FileFourteenDesignFive></FileFourteenDesignFive> */}
+      {/* <FileFouteenDesignSix></FileFouteenDesignSix> */}
+      {/* <FileFourteenDesignSeven></FileFourteenDesignSeven> */}
+      {/* <FileFourteenDesignEight></FileFourteenDesignEight> */}
+      {/* <FileFourteenDesignNine></FileFourteenDesignNine> */}
+      <FileFourteenDesignTen></FileFourteenDesignTen>
       {/* file four  */}
       {/* <FileFourDesignOne/> */}
       {/* <FileFourDesignTwo/> */}
@@ -179,6 +201,10 @@ function Home() {
 
       {/* file fifteen  */}
       {/* <FileFifteenDesignFive /> */}
+
+
+
+      
 
     </div>
   )
