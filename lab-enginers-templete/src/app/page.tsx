@@ -91,7 +91,7 @@ function Home() {
       {/* <NineFileDesignTen></NineFileDesignTen> */}
       {/* <NineFileDesignEleven></NineFileDesignEleven> */}
      {/* <NineFileDesignTwelve></NineFileDesignTwelve> */}
-      <NineFileDesignThirteen></NineFileDesignThirteen>
+      {/* <NineFileDesignThirteen></NineFileDesignThirteen> */}
       {/* <TenFileDesignThree></TenFileDesignThree> */}
       {/* <TenFileDesignFour></TenFileDesignFour> */}
       {/* <TenFileDesignFive></TenFileDesignFive> */}
