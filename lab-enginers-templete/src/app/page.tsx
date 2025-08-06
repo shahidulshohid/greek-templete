@@ -69,6 +69,7 @@ import FileFourDesignFive from "./(alTemplete)/file-four/design-five/page"
 import FileFourDesignSix from "./(alTemplete)/file-four/design-six/page"
 import FileFourDesignSeven from "./(alTemplete)/file-four/design-seven/page"
 import FileFourDesignEight from "./(alTemplete)/file-four/design-eight/page"
+import FileFourDesignNine from "./(alTemplete)/file-four/design-nine/page"
 
 
 
@@ -154,7 +155,8 @@ function Home() {
       {/* <FileFourDesignFive/> */}
       {/* <FileFourDesignSix/> */}
       {/* <FileFourDesignSeven/> */}
-      <FileFourDesignEight/>
+      {/* <FileFourDesignEight/> */}
+      <FileFourDesignNine/>
 
       {/* file fifteen  */}
       {/* <FileFifteenDesignFive /> */}
