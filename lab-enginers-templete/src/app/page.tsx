@@ -84,6 +84,14 @@ import FileFiveDesignTwo from "./(alTemplete)/file-five/design-two/page"
 import FileFiveDesignThree from "./(alTemplete)/file-five/design-three/page"
 import FileFiveDesignFour from "./(alTemplete)/file-five/design-four/page"
 import FileFiveDesignFive from "./(alTemplete)/file-five/design-five/page"
+import FileFourteenDesignEleven from "./(alTemplete)/file-fourteen/design-eleven/page"
+import FileFourteenDesignTweleve from "./(alTemplete)/file-fourteen/design-tweleve/page"
+import FileFourteenDesignThreen from "./(alTemplete)/file-fourteen/design-thirteen/page"
+import FileFourteenDesignFourteen from "./(alTemplete)/file-fourteen/design-fourteen/page"
+import FileFourteenDesignFifteen from "./(alTemplete)/file-fourteen/design-fifteen/page"
+import FileFifteenDesignOne from "./(alTemplete)/file-fifteen/design-three/page"
+import FileFifteenDesignThree from "./(alTemplete)/file-fifteen/design-three/page"
+import FileFifteenDesignFour from "./(alTemplete)/file-fifteen/design-four/page"
 
 
 
@@ -174,7 +182,12 @@ function Home() {
       {/* <FileFourteenDesignSeven></FileFourteenDesignSeven> */}
       {/* <FileFourteenDesignEight></FileFourteenDesignEight> */}
       {/* <FileFourteenDesignNine></FileFourteenDesignNine> */}
-      <FileFourteenDesignTen></FileFourteenDesignTen>
+      {/* <FileFourteenDesignTen></FileFourteenDesignTen> */}
+      {/* <FileFourteenDesignEleven></FileFourteenDesignEleven> */}
+      {/* <FileFourteenDesignTweleve></FileFourteenDesignTweleve> */}
+      {/* <FileFourteenDesignThreen></FileFourteenDesignThreen> */}
+      {/* <FileFourteenDesignFourteen></FileFourteenDesignFourteen> */}
+      {/* <FileFourteenDesignFifteen></FileFourteenDesignFifteen> */}
       {/* file four  */}
       {/* <FileFourDesignOne/> */}
       {/* <FileFourDesignTwo/> */}
@@ -192,10 +205,12 @@ function Home() {
       {/* <FileFiveDesignTwo/> */}
       {/* <FileFiveDesignThree/> */}
       {/* <FileFiveDesignFour/> */}
-      <FileFiveDesignFive/>
+      {/* <FileFiveDesignFive/> */}
 
 
       {/* file fifteen  */}
+      {/* <FileFifteenDesignThree></FileFifteenDesignThree> */}
+      <FileFifteenDesignFour></FileFifteenDesignFour>
       {/* <FileFifteenDesignFive /> */}
 
 
