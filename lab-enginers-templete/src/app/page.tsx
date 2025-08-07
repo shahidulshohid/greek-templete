@@ -97,6 +97,7 @@ import FileSixDesignFive from "./(alTemplete)/file-six/design-five/page"
 import FileSixDesignSix from "./(alTemplete)/file-six/design-six/page"
 import FileSixDesignSeven from "./(alTemplete)/file-six/design-seven/page"
 import FileSixDesignEight from "./(alTemplete)/file-six/design-eight/page"
+import FileSixDesignNine from "./(alTemplete)/file-six/design-nine/page"
 
 
 
@@ -209,7 +210,7 @@ function Home() {
       {/* <FileFiveDesignFive/> */}
       {/* <FileFiveDesignSix/> */}
       {/* <FileFiveDesignSeven/> */}
-      <FileFiveDesignEight/>
+      {/* <FileFiveDesignEight/> */}
       {/* <FileFiveDesignNine/> */}
       {/* <FileFiveDesignTen/> */}
       
@@ -221,7 +222,8 @@ function Home() {
       {/* <FileSixDesignFive/> */}
       {/* <FileSixDesignSix/> */}
       {/* <FileSixDesignSeven/> */}
-      <FileSixDesignEight/>
+      {/* <FileSixDesignEight/> */}
+      <FileSixDesignNine/>
 
       {/* file fifteen  */}
       {/* <FileFifteenDesignFive /> */}
