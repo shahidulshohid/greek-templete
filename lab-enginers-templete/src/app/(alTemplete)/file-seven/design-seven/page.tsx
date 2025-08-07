@@ -1,8 +1,8 @@
 "use client"
-
 import StampComponent from "@/component/shared/dashed/Dashed"
 
-export default function FileSixDesignEight() {
+export default function FileSevenDesignSeven() {
+
     const descriptions = [
         {
             "id": 1,
@@ -147,6 +147,7 @@ export default function FileSixDesignEight() {
             "description": "Technical Description 13 of the project"
         },
     ]
+
     return (
         <div className="max-w-[794px] mx-auto p-4 bg-white space-y-8">
             {/* ΦΑΚΕΛΟΣ ΑΣΦΑΛΕΙΑΣ ΚΑΙ ΥΓΕΙΑΣ first stp=========================*/}
@@ -484,7 +485,8 @@ export default function FileSixDesignEight() {
                         <div className="">
                             <h3 className="text-center mb-4">Ο ΣΥΝΤΑΞΑΣ</h3>
                             {/* Dashed Border Box = common component*/}
-                            <StampComponent
+                            <div className="mt-16">
+                                <StampComponent
                                 title="ΣΦΡΑΓΙΔΑ ΜΗΧΑΝΙΚΟΥ"
                                 instructions={[
                                     "Με δεξί κλικ",
@@ -492,6 +494,7 @@ export default function FileSixDesignEight() {
                                     " Βάζετε την σφραγίδα σας",
                                 ]}
                             />
+                            </div>
                         </div>
                         <div className="flex items-center justify-center gap-2">
                             <span className=" ">Ημερομηνία :</span>
