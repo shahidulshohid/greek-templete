@@ -117,7 +117,7 @@ function Home() {
       {/* file one =================== */}
       {/* <ProjectDescriptionOne/> */}
       <ProjectDescriptionTwo/>
-      {/* <ProjectDescriptionThree/> */}
+      <ProjectDescriptionThree/>
       {/* <ProjectDescriptionFour/> */}
       {/* <ProjectDescriptionFive/> */}
       {/* <ProjectDescriptionSix/> */}
@@ -245,7 +245,7 @@ function Home() {
 
       {/* file fifteen  */}
       {/* <FileFifteenDesignThree></FileFifteenDesignThree> */}
-      <FileFifteenDesignFour></FileFifteenDesignFour>
+      {/* <FileFifteenDesignFour></FileFifteenDesignFour> */}
       {/* <FileFifteenDesignFive /> */}
 
 
