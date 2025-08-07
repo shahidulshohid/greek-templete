@@ -1,196 +1,100 @@
 "use client"
-import StampComponent from "@/component/shared/dashed/Dashed"
+
+import React, { useState } from 'react';
 
 export default function FileFifteenDesignFive() {
+    const [formData, setFormData] = useState({
+        projectDescription: 'PROJECT DISCRIPISON',
+        responsibleAuthority: 'YDOM',
+        submissionDate: 'DATE OF PROJECT',
+        protocolNumber: ''
+    });
 
-    const workItems = [
-        {
-            title: "Αλλαγή Χρήσης Χώρου",
-            description: `Αφορά την τροποποίηση της χρήσης του χώρου `,
-            fields: [
-                { key: "area", placeholder: "εμβαδόν … τ.μ." },
-                { key: "currentUse", placeholder: "αποθήκης/χώρου στάθμευσης" },
-                { key: "floor", placeholder: "όροφο/ισόγειο/υπόγειο" },
-                { key: "access", placeholder: "ιδιωτικής εισόδου ή κοινόχρηστων χώρων" },
-                { key: "newUse", placeholder: "κατοικία, κατάστημα κλπ." },
-            ],
-            fullText: `(π.χ. ισόγειου αποθηκευτικού χώρου με εμβαδόν … τ.μ.), ο οποίος βάσει της εγκεκριμένης οικοδομικής άδειας ………/……… φέρει χρήση …………………… (π.χ. αποθήκης/χώρου στάθμευσης) και βρίσκεται στον …………………… (όροφο/ισόγειο/υπόγειο), με αυτόνομη πρόσβαση μέσω …………………… (π.χ. ιδιωτικής εισόδου ή κοινόχρηστων χώρων). Η κατασκευή του χώρου είναι σύμφωνη με την εγκεκριμένη στατική και αρχιτεκτονική μελέτη της άδειας. Η προτεινόμενη αλλαγή χρήσης αφορά τη μετατροπή του σε …………………… (π.χ. κατοικία, κατάστημα κλπ.), χωρίς επέμβαση στον φέροντα οργανισμό ή τροποποίηση του εξωτερικού όγκου και των όψεων του κτιρίου, ενώ η νέα χρήση είναι πλήρως συμβατή με τις θεσμοθετημένες χρήσεις γης της περιοχής.`,
-        },
-        {
-            title: "Καθαίρεση εσωτερικών τοιχοποιιών και απομάκρυνση μπαζών",
-            description:
-                "Αποξήλωση τοιχοποιιών από τούβλο ή γυψοσανίδα, απομάκρυνση μπαζών και καθαρισμός χώρου. Περιλαμβάνει χρήση κοπτικών εργαλείων και προστασία γειτονικών κατασκευών.",
-        },
-        {
-            title: "Αποξηλώσεις υφιστάμενων εσωτερικών κουφωμάτων/πορτών, ντουλαπιών κουζίνας και ντουλαπών",
-            description:
-                "Αφαίρεση με προσοχή για ελαχιστοποίηση φθορών, απομάκρυνση από τον χώρο και καθαρισμός υπολειμμάτων.",
-        },
-        {
-            title: "Αποξηλώσεις πλακιδίων σε δάπεδα/τοιχούς λουτρού-WC",
-            description: "Χρήση εργαλείων αποκόλλησης, προστασία σωληνώσεων και κατασκευών, καθαρισμός και απόρριψη υλικών.",
-        },
-        {
-            title: "Αποξηλώσεις παλαιών ειδών υγιεινής",
-            description:
-                "Αποσύνδεση και απομάκρυνση λεκάνης, νιπτήρα, μπανιέρας ή καμπίνας, με ασφαλή τρόπο, χωρίς πρόκληση φθοράς σε δίκτυα ύδρευσης/αποχέτευσης",
-        },
-        {
-            title: "Μικρές οικοδομικές εργασίες – Σοβατίσματα – Στοκαρίσματα τοιχοποιιών",
-            description:
-                "Επιδιορθώσεις τοίχων, εφαρμογή σοβά για ευθυγράμμιση επιφανειών, στοκάρισμα αρμών και ατελειών με υλικά κατάλληλα για βάψιμο ή επικάλυψη",
-        },
-        {
-            title: "Ηλεκτρολογικές εργασίες",
-            description:
-                "Νέες καλωδιώσεις σε υπάρχουσες ή νέες οδεύσεις, τοποθέτηση πριζών, διακοπτών, παροχών ρεύματος και πίνακα, βάσει προδιαγραφών ασφαλείας.",
-        },
-        {
-            title: "Υδραυλικές εργασίες",
-            description:
-                "Νέες σωληνώσεις παροχής και αποχέτευσης σε χώρο λουτρού/WC και κουζίνας, σύνδεση με υπάρχον δίκτυο, τοποθέτηση νέων ειδών υγιεινής, σιφώνια, νιπτήρες, καζανάκια κ.ά",
-        },
-        {
-            title: "Γεμίσματα δαπέδων",
-            description:
-                "Στρώση γεμισμάτων για εξισορρόπηση υψομετρικών διαφορών ή απόκρυψη εγκαταστάσεων. Εφαρμογή με ελαφρομπετόν ή τσιμεντοκονία, επιπέδωση και φινίρισμα.",
-        },
-        {
-            title: "Τρίψιμο και γυάλισμα ξύλινου παρκέ",
-            description:
-                "Λείανση με ειδικά μηχανήματα, στοκάρισμα και εφαρμογή προστατευτικού βερνικιού για ανανέωση της όψης και αντοχής του ξύλινου δαπέδου.",
-        },
-        {
-            title: "Τρίψιμο και γυάλισμα μαρμάρων",
-            description:
-                "Λείανση, στοκάρισμα και κρυσταλλοποίηση μαρμάρινων επιφανειών για αποκατάσταση λάμψης και καθαρότητας επιφάνειας.",
-        },
-        {
-            title: "Τοποθέτηση πλακιδίων σε δάπεδο και τοίχους WC/Κουζίνας",
-            description: "Προετοιμασία υποστρώματος, επικόλληση νέων πλακιδίων με κόλλα, αρμολόγηση και καθαρισμός.",
-        },
-        {
-            title: "Κατασκευή από ξηρά δόμηση – Χώρισμα 1+1, Επένδυση 0+1 σε τοιχοποία και Οροφή από γυψοσανίδα",
-            description:
-                "Κατασκευή χωρισμάτων με μεταλλικό σκελετό και γυψοσανίδα, πλήρωση με υλικά ηχομόνωσης. Οροφές με σκελετό και ανάρτηση, φινίρισμα με αρμόστοκο.",
-        },
-        {
-            title: "Εσωτερικοί χρωματισμοί – προετοιμασία, στοκαρίσματα και εφαρμογή",
-            description:
-                "Στοκάρισμα και τρίψιμο επιφανειών, εφαρμογή αστάρι και δύο χεριών βαφή σε τοίχους και ταβάνια με πλαστικό ή ακρυλικό χρώμα.",
-        },
-        {
-            title: "Εξωτερικοί χρωματισμοί – προετοιμασία, στοκαρίσματα και εφαρμογή",
-            description:
-                "Στοκάρισμα και τρίψιμο επιφανειών, εφαρμογή αστάρι και δύο χεριών βαφή σε τοίχους και ταβάνια με πλαστικό ή ακρυλικό χρώμα.",
-        },
-        {
-            title: "Τοποθέτηση νέων κουφωμάτων αλουμινίου στα ίδια ανοίγματα",
-            description:
-                "Αφαίρεση παλιών κουφωμάτων, τοποθέτηση νέων κουφωμάτων (παράθυρα/μπαλκονόπορτες) αλουμινίου με διπλά υαλοστάσια και θερμοδιακοπή.",
-        },
-        {
-            title: "Αντικατάσταση ξύλινων επιφανειών στην κουζίνα & νέα εσωτερικά κουφώματα και ντουλάπες",
-            description:
-                "Αντικατάσταση παλαιών ντουλαπιών κουζίνας με νέα, τοποθέτηση νέων εσωτερικών πορτών MDF/laminate, νέες ντουλάπες υπνοδωματίων.",
-        },
-        {
-            title: "Τοποθέτηση και μετακίνηση νέων σωμάτων καλοριφέρ",
-            description:
-                "Αποσύνδεση/τοποθέτηση νέων σωμάτων, μεταφορά σημείων βάσει μελέτης, νέα σωληνώσεις και υδραυλικές συνδέσεις, εξαερώσεις και δοκιμή.",
-        },
-        {
-            title: "Θέρμανση / Ψύξη – Κλιματισμός",
-            description:
-                "Τοποθέτηση κλιματιστικών (split unit, πολυδιαιρούμενα), προκαλωδίωση & σωληνώσεις ψυκτικού υγρού (χωνευτά), αντικατάσταση λεβητοστασίου ή μετάβαση σε αντλία θερμότητας, τοποθέτηση θερμοστατών – ζωνών θέρμανσης.",
-        },
-    ]
+    const handleInputChange = (field: any, value: any) => {
+        setFormData(prev => ({
+            ...prev,
+            [field]: value
+        }));
+    };
 
     return (
-        <div className="max-w-[794px] mx-auto p-6 bg-white">
-            {/* Title */}
-            <h2 className="text-center font-semibold underline text-sm mb-2">
-                ΤΕΧΝΙΚΗ ΕΚΘΕΣΗ ΕΡΓΑΣΙΩΝ - ΒΕΒΑΙΩΣΗ ΜΗΧΑΝΙΚΟΥ
-            </h2>
-
-            {/* Project Information */}
-            <div className="mb-8 space-y-4">
-                <div className="flex items-start justify-between max-w-[450px]">
-                    <span className=" min-w-[80px] text-sm">Έργο:</span>
-                    <h3 className=" text-sm">PROJECT DESCRIPTION</h3>
+        <div className="max-w-[794px] mx-auto bg-[#99cc00] pb-35 p-5">
+            <div className="max-w-4xl mx-auto">
+                {/* Header */}
+                <div className="text-center mb-12">
+                    <h1 className="text-xl font-semibold text-black tracking-wide">
+                        ΣΤΟΙΧΕΙΑ ΔΙΑΧΕΙΡΙΣΗΣ ΑΠΟΒΛΗΤΩΝ
+                    </h1>
                 </div>
 
-                <div className="flex items-start justify-between gap-4 max-w-xl">
-                    <span className=" text-sm">Θέση:</span>
-                    <h3 className=" text-sm">ADDRESS, TOWN/AREA , POSTAL CODE ( FOR BUILDING)</h3>
-                </div>
-
-                <div className="flex items-start justify-between max-w-[400px] ml-[40px] text-sm">
-                    <span className="">Ιδιοκτήτης:</span>
-                    <h3 className=" text-sm">OWNER/OWNERS</h3>
-                </div>
-            </div>
-
-            {/* Main Description */}
-            <div className="text-sm mb-4 ml-10">
-                <p>Στο ακίνητο <span className="font-semibold">Description for building/ horiontal property</span> επί της οδού <br /> <span className="font-semibold">Address,Town/Area , postal code ( FOR BUILDING),</span>
-                    πρόκειται να <br /> εκτελεσθούν οι παρακάτω εργασίες :</p>
-            </div>
-
-            {/* Work Items List */}
-            <div className="space-y-6 ml-10">
-                {workItems.map((item, index) => (
-                    <div key={index} className="flex gap-3">
-                        <div className="text-lg font-semibold mt-1 text-black">●</div>
+                {/* Form Fields */}
+                <div className="space-y-8">
+                    {/* Project Title */}
+                    <div className="flex items-center">
+                        <label className="text-black font-bold text-sm flex-1">
+                            ΤΙΤΛΟΣ ΕΡΓΟΥ:
+                        </label>
                         <div className="flex-1">
-                            <h3 className="font-semibold text-black mb-2">{item.title}</h3>
-                            {item.title === "Αλλαγή Χρήσης Χώρου" ? (
-                                <div className="text-justify leading-relaxed text-sm text-black">
-                                    <p className="mb-2">
-                                        Αλλαγή Χρήσης Χώρου Η Αφορά την τροποποίηση της χρήσης του χώρου ................ (π.χ. ισόγειου αποθηκευτικού χώρου με εμβαδόν ... τ.μ.),
-                                        ο οποίος βάσει της εγκεκριμένης οικοδομικής άδειας ......../........ φέρει χρήση ........ (π.χ. αποθήκης/χώρου στάθμευσης) και βρίσκεται στον
-                                        ................ (όροφο/ισόγειο/υπόγειο), με αυτόνομη πρόσβαση μέσω ................ (π.χ. ιδιωτικής εισόδου ή κοινόχρηστων χώρων).
-                                        Η κατασκευή του χώρου είναι σύμφωνη με την εγκεκριμένη στατική και αρχιτεκτονική μελέτη της άδειας. Η προτεινόμενη αλλαγή χρήσης αφορά
-                                        τη μετατροπή του σε ................ (π.χ. κατοικία, κατάστημα κλπ.), χωρίς επέμβαση στον φέροντα οργανισμό ή τροποποίηση
-                                        του εξωτερικού όγκου και των όψεων του κτιρίου, ενώ η νέα χρήση είναι πλήρως συμβατή με τις
-                                        θεσμοθετημένες χρήσεις γης της περιοχής.
-                                    </p>
-                                </div>
-                            ) : (
-                                <p className="text-justify leading-relaxed text-sm text-black">{item.description}</p>
-                            )}
+                            <input
+                                type="text"
+                                value={formData.projectDescription}
+                                onChange={(e) => handleInputChange('projectDescription', e.target.value)}
+                                className="w-full p-3 border-1 border-black bg-gray-100 text-black text-base"
+                                style={{ minHeight: '48px' }}
+                            />
                         </div>
                     </div>
-                ))}
-            </div>
 
-
-            {/* {/* Signature Section */}
-            <div className="mt-6 text-right flex items-center justify-center p-5">
-                <div className="max-w-[300px]">
-
-                    <div className="text-center">
-                        <p>Ημερομηνία :</p>
-                        <p>25/06/2025</p>
+                    {/* Responsible Authority */}
+                    <div className="flex items-center">
+                        <label className="text-black font-bold text-sm flex-1">
+                            ΑΡΜΟΔΙΑ ΑΡΧΗ ΠΟΥ ΥΠΟΒΑΛΛΕΤΑΙ:
+                        </label>
+                        <div className="flex-1">
+                            <input
+                                type="text"
+                                value={formData.responsibleAuthority}
+                                onChange={(e) => handleInputChange('responsibleAuthority', e.target.value)}
+                                className="w-full p-3 border-1 border-black bg-white text-black text-base"
+                                style={{ minHeight: '48px' }}
+                            />
+                        </div>
                     </div>
-                    <div className="">
-                        <h3 className="text-center mb-4">Ο ΣΥΝΤΑΞΑΣ</h3>
-                        {/* Dashed Border Box = common component*/}
-                        <StampComponent
-                            title="ΣΦΡΑΓΙΔΑ ΜΗΧΑΝΙΚΟΥ"
-                            instructions={[
-                                "Με δεξί κλικ",
-                                "Αλλαγή εικόνας",
-                                " Βάζετε την σφραγίδα σας",
-                            ]}
-                        />
+
+                    {/* Submission Date */}
+                    <div className="flex items-center">
+                        <label className="text-black font-bold text-sm flex-1">
+                            ΗΜΕΡΟΜΗΝΙΑ ΥΠΟΒΟΛΗΣ:
+                        </label>
+                        <div className="flex-1">
+                            <input
+                                type="text"
+                                value={formData.submissionDate}
+                                onChange={(e) => handleInputChange('submissionDate', e.target.value)}
+                                className="w-full p-3 border-1 border-black bg-gray-100 text-black text-base"
+                                style={{ minHeight: '48px' }}
+                            />
+                        </div>
+                    </div>
+
+                    {/* Protocol Number */}
+                    <div className="flex items-center">
+                        <label className="text-black font-bold text-sm flex-1">
+                            ΑΡ. ΠΡΩΤΟΚΟΛΛΟΥ ΚΑΤΑΘΕΣΗΣ:
+                        </label>
+                        <div className="flex-1">
+                            <input
+                                type="text"
+                                value={formData.protocolNumber}
+                                onChange={(e) => handleInputChange('protocolNumber', e.target.value)}
+                                className="w-full p-3 border-1 border-black bg-white text-black text-base"
+                                placeholder="-"
+                                style={{ minHeight: '48px' }}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
-    )
+    );
 }
-
-
-
