@@ -183,10 +183,8 @@ function Home() {
    {/* <FileThirteenDesignFour /> */}
    {/* <FileThirteenDesignFive /> */}
    {/* <FileThirteenDesignSix /> */}
-
-   {/* <FileThirteenDesignSeven /> */}
-
-   <FileThirteenDesignEight />
+   <FileThirteenDesignSeven />
+   {/* <FileThirteenDesignEight /> */}
    {/* <FileThirteenDesignNine /> */}
    {/* <FileThirteenDesignTen /> */}
    {/* <FileThirteenDesignEleven /> */}
