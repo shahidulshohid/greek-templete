@@ -4,7 +4,7 @@
 
 import StampComponent from "@/component/shared/dashed/Dashed"
 
-export default function FileThreeDesignTen() {
+export default function FileFiveDesignNine() {
     const descriptions = [
         {
             "id": 1,
@@ -236,7 +236,7 @@ export default function FileThreeDesignTen() {
                 {/* Γ. ΕΠΙΣΗΜΑΝΣΕΙΣ */}
                 <div className="p-4">
                     <h2 className="font-bold mb-4">Γ. ΕΠΙΣΗΜΑΝΣΕΙΣ</h2>
-                    <div className="space-y-2 text-sm">
+                    <div className="text-sm">
                         <p>Δεν υπάρχουν ζώνες ιδιαίτερου κινδύνου στο εργοτάξιο της οικοδομής.</p>
                         <p>Δεν υπάρχουν ιδιαιτερότητες στη στατική δομή, ευστάθεια και αντοχή του έργου.</p>
                         <p>Θέσεις δικτύων κεντρικών παροχών και κεντρικών διακοπτών θα σημανθούν.</p>
@@ -302,7 +302,7 @@ export default function FileThreeDesignTen() {
                             </div>
                             <div className="flex items-center justify-center gap-2">
                                 <span className=" ">Ημερομηνία :</span>
-                                <span className=" ">2/8/2025</span>
+                                <span className=" ">6/8/2025</span>
                             </div>
                         </div>
                     </div>
@@ -456,8 +456,8 @@ export default function FileThreeDesignTen() {
                             </li>
                             <li className="flex items-center gap-2">
                                 <div>
-                                    <p>4. Διευθέτηση αποκομιδής επικίνδυνων υλικών:</p>
-                                    <p className="ml-4">Συγκέντρωση επικίνδυνων υλικών για αποκομιδή και σωστή διάθεση.</p>
+                                    <p>4. Συνθήκες αποκομιδής επικίνδυνων υλικών: </p>
+                                    <p className="ml-4">Δεν θα χρησιμοποιηθούν επικίνδυνα υλικά.</p>
                                 </div>
                             </li>
                             <li className="flex items-center gap-2">
@@ -469,7 +469,7 @@ export default function FileThreeDesignTen() {
                             <li className="flex items-center gap-2">
                                 <div>
                                     <p>6. Κατασκευή ικριωμάτων:</p>
-                                    <p className="ml-4">Συνήθης μορφή ικριωμάτων χρησιμοποιώντας κανονιστικά πρότυπα.</p>
+                                    <p className="ml-4">Συνήθους μορφής </p>
                                 </div>
                             </li>
                         </ul>
@@ -492,7 +492,7 @@ export default function FileThreeDesignTen() {
                         </div>
                         <div className="flex items-center justify-center gap-2">
                             <span className=" ">Ημερομηνία :</span>
-                            <span className=" ">2/8/2025</span>
+                            <span className=" ">6/8/2025</span>
                         </div>
                     </div>
                 </div>

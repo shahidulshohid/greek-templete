@@ -65,6 +65,37 @@ import FileSixDesignNine from "./(alTemplete)/file-six/design-nine/page"
 import FileSixDesignTwelve from "./(alTemplete)/file-six/design-twelve/page"
 import FileSixDesignEleven from "./(alTemplete)/file-six/design-eleven/page"
 import FileSixDesignEight from "./(alTemplete)/file-six/design-eight/page"
+import FileFourteenDesignThree from "./(alTemplete)/file-fourteen/design-three/page"
+import FileFourteenDesignFour from "./(alTemplete)/file-fourteen/design-four/page"
+import FileFourteenDesignFive from "./(alTemplete)/file-fourteen/design-five/page"
+import FileFouteenDesignSix from "./(alTemplete)/file-fourteen/design-six/page"
+import FileFourteenDesignSeven from "./(alTemplete)/file-fourteen/design-seven/page"
+import FileFourteenDesignEight from "./(alTemplete)/file-fourteen/design-eight/page"
+import FileFourteenDesignNine from "./(alTemplete)/file-fourteen/design-nine/page"
+import FileFourteenDesignTen from "./(alTemplete)/file-fourteen/design-ten/page"
+import FileTwoDesignThirteen from "./(alTemplete)/file-two/design-thirteen/page"
+import FileFourDesignOne from "./(alTemplete)/file-four/design-one/page"
+import FileFourDesignTwo from "./(alTemplete)/file-four/design-two/page"
+import FileFourDesignThree from "./(alTemplete)/file-four/design-three/page"
+import FileFourDesignFour from "./(alTemplete)/file-four/design-four/page"
+import FileFourDesignFive from "./(alTemplete)/file-four/design-five/page"
+import FileFourDesignSix from "./(alTemplete)/file-four/design-six/page"
+import FileFourDesignSeven from "./(alTemplete)/file-four/design-seven/page"
+import FileFourDesignEight from "./(alTemplete)/file-four/design-eight/page"
+import FileFourDesignNine from "./(alTemplete)/file-four/design-nine/page"
+import FileFourDesignTen from "./(alTemplete)/file-four/design-ten/page"
+import FileFiveDesignOne from "./(alTemplete)/file-five/design-one/page"
+import FileFiveDesignTwo from "./(alTemplete)/file-five/design-two/page"
+import FileFiveDesignThree from "./(alTemplete)/file-five/design-three/page"
+import FileFiveDesignFour from "./(alTemplete)/file-five/design-four/page"
+import FileFiveDesignFive from "./(alTemplete)/file-five/design-five/page"
+import FileFiveDesignSix from "./(alTemplete)/file-five/design-six/page"
+import FileFiveDesignSeven from "./(alTemplete)/file-five/design-seven/page"
+import FileFiveDesignEight from "./(alTemplete)/file-five/design-eight/page"
+import FileFiveDesignNine from "./(alTemplete)/file-five/design-nine/page"
+import FileFiveDesignTen from "./(alTemplete)/file-five/design-ten/page"
+import FileSixDesignTen from "./(alTemplete)/file-six/design-ten/page"
+import FileSixDesignTwo from "./(alTemplete)/file-six/design-two/page"
 
 
 
@@ -83,7 +114,11 @@ function Home() {
       {/* <ProjectDescriptionNine/> */}
       {/* <ProjectDescriptionTen/> */}
       {/* <ProjectDescriptionEleven/> */}
+
+
       {/* <DesignFive/> */}
+
+      {/* file Nine  */}
       {/* <NineFileDesignOne></NineFileDesignOne> */}
       {/* <NineFileDesignTwo></NineFileDesignTwo> */}
       {/* <NineFileDesignThree></NineFileDesignThree> */}
@@ -97,6 +132,8 @@ function Home() {
       {/* <NineFileDesignEleven></NineFileDesignEleven> */}
      {/* <NineFileDesignTwelve></NineFileDesignTwelve> */}
       {/* <NineFileDesignThirteen></NineFileDesignThirteen> */}
+
+      {/* file Ten  */}
       {/* <TenFileDesignThree></TenFileDesignThree> */}
       {/* <TenFileDesignFour></TenFileDesignFour> */}
       {/* <TenFileDesignFive></TenFileDesignFive> */}
@@ -125,6 +162,7 @@ function Home() {
       {/* <FileTwoDesignTen/> */}
       {/* <FileTwoDesignEleven/> */}
       {/* <FileTwoDesignTwelve/> */}
+      {/* <FileTwoDesignThirteen/> */}
 
       {/* file three ================= */}
       {/* <FileThreeDesignOne /> */}
@@ -139,15 +177,53 @@ function Home() {
       {/* <FileThreeDesignTen/> */}
       {/* <FileThreeDesignEleven /> */}
 
+
+      {/* file Fourteen */}
+      {/* <FileFourteenDesignThree></FileFourteenDesignThree> */}
+      {/* <FileFourteenDesignFour></FileFourteenDesignFour> */}
+      {/* <FileFourteenDesignFive></FileFourteenDesignFive> */}
+      {/* <FileFouteenDesignSix></FileFouteenDesignSix> */}
+      {/* <FileFourteenDesignSeven></FileFourteenDesignSeven> */}
+      {/* <FileFourteenDesignEight></FileFourteenDesignEight> */}
+      {/* <FileFourteenDesignNine></FileFourteenDesignNine> */}
+      {/* <FileFourteenDesignTen></FileFourteenDesignTen> */}
+      
+      {/* file four  */}
+      {/* <FileFourDesignOne/> */}
+      {/* <FileFourDesignTwo/> */}
+      {/* <FileFourDesignThree/> */}
+      {/* <FileFourDesignFour/> */}
+      {/* <FileFourDesignFive/> */}
+      {/* <FileFourDesignSix/> */}
+      {/* <FileFourDesignSeven/> */}
+      {/* <FileFourDesignEight/> */}
+      {/* <FileFourDesignNine/> */}
+      {/* <FileFourDesignTen/> */}
+
+      {/* file five  */}
+      {/* <FileFiveDesignOne/> */}
+      {/* <FileFiveDesignTwo/> */}
+      {/* <FileFiveDesignThree/> */}
+      {/* <FileFiveDesignFour/> */}
+      {/* <FileFiveDesignFive/> */}
+      {/* <FileFiveDesignSix/> */}
+      {/* <FileFiveDesignSeven/> */}
+      {/* <FileFiveDesignEight/> */}
+      {/* <FileFiveDesignNine/> */}
+      {/* <FileFiveDesignTen/> */}
+
+
       {/* file fifteen  */}
       {/* <FileFifteenDesignFive /> */}
 
       {/* ==== File - 6 ==== */}
       {/* <FileSixDesignOne /> */}
+      {/* <FileSixDesignTwo /> */}
       {/* <FileSixDesignNine /> */}
       {/* <FileSixDesignTwelve /> */}
       {/* <FileSixDesignEleven /> */}
       {/* <FileSixDesignEight /> */}
+      {/* <FileSixDesignTen /> */}
 
     </div>
   )
