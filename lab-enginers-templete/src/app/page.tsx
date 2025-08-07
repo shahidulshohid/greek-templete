@@ -83,6 +83,7 @@ import FileThirteenDesignFive from "./(alTemplete)/file-thirteen/fileThirteenDes
 import FileThirteenDesignSix from "./(alTemplete)/file-thirteen/FileThirteenDesignSix/page";
 import FileThirteenDesignSeven from "./(alTemplete)/file-thirteen/FileThirteenDesignSeven/page";
 import FileThirteenDesignEight from "./(alTemplete)/file-thirteen/FileThirteenDesignEight/page";
+import FileThirteenDesignNine from "./(alTemplete)/file-thirteen/FileThirteenDesignNine/page";
 
 function Home() {
   return (
@@ -183,9 +184,9 @@ function Home() {
    {/* <FileThirteenDesignFour /> */}
    {/* <FileThirteenDesignFive /> */}
    {/* <FileThirteenDesignSix /> */}
-   <FileThirteenDesignSeven />
+   {/* <FileThirteenDesignSeven /> */}
    {/* <FileThirteenDesignEight /> */}
-   {/* <FileThirteenDesignNine /> */}
+   <FileThirteenDesignNine />
    {/* <FileThirteenDesignTen /> */}
    {/* <FileThirteenDesignEleven /> */}
 
