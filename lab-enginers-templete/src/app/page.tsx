@@ -116,8 +116,8 @@ function Home() {
     <div className='p-8'>
       {/* file one =================== */}
       {/* <ProjectDescriptionOne/> */}
-      <ProjectDescriptionTwo/>
-      <ProjectDescriptionThree/>
+      {/* <ProjectDescriptionTwo/> */}
+      {/* <ProjectDescriptionThree/> */}
       {/* <ProjectDescriptionFour/> */}
       {/* <ProjectDescriptionFive/> */}
       {/* <ProjectDescriptionSix/> */}
@@ -231,7 +231,7 @@ function Home() {
       {/* <FileFiveDesignTen/> */}
       
       {/* file six  */}
-      {/* <FileSixDesignOne/> */}
+      <FileSixDesignOne/>
       {/* <FileSixDesignTwo/> */}
       {/* <FileSixDesignThree/> */}
       {/* <FileSixDesignFour/> */}
