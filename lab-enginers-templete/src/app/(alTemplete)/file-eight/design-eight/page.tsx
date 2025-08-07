@@ -151,7 +151,7 @@ export default function DesignEight() {
                 <div>ίου (Email):</div>
               </div>
             </div>
-            <div className="w-32 p-2 underline">email owner</div>
+            <div className="w-32 p-2 underline">email Engineer</div>
           </div>
         </div>
 
@@ -161,7 +161,7 @@ export default function DesignEight() {
             <div className="w-32 p-2 border-r border-gray-400 text-sm">
               Α.Φ.Μ.:
             </div>
-            <div className="flex-1 p-2 font-bold">VAT owner</div>
+            <div className="flex-1 p-2 font-bold">VAT Engineer</div>
             <div className="w-32 p-2 border-l border-gray-400 text-sm">
               Δ.Ο.Υ.:
             </div>
