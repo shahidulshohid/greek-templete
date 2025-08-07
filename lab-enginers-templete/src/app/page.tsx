@@ -76,6 +76,8 @@ import ElevenFileDesignNine from "./(alTemplete)/file-eleven/elevenFileDesignNin
 import ElevenFileDesignSeven from "./(alTemplete)/file-eleven/elevenFileDesignSeven/page";
 import ElevenFileDesignFive from "./(alTemplete)/file-eleven/elevenFileDesignFive/page";
 import ElevenFileDesignFour from "./(alTemplete)/file-eleven/elevenFileDesignFour/page";
+import FileThirteenDesignOne from "./(alTemplete)/file-thirteen/fileThirteenDesignOne/page";
+import FileThirteenDesignTwo from "./(alTemplete)/file-thirteen/fileThirteenDesignTwo/page";
 
 function Home() {
   return (
@@ -157,7 +159,7 @@ function Home() {
       {/* <DesignTen /> */}
 
       {/* file eleven */}
-      <ElevenFileDesignFour />
+      {/* <ElevenFileDesignFour /> */}
       {/* <ElevenFileDesignFive /> */}
       {/* <ElevenFileDesignSix /> */}
       {/* <ElevenFileDesignSeven /> */}
@@ -167,6 +169,12 @@ function Home() {
       {/* <ElevenFileDesignElEven /> */}
       {/* <ElevenFileDesignTwelve /> */}
       {/* <ElevenFileDesignThirteen /> */}
+
+
+   {/* file eleven */}
+   {/* <FileThirteenDesignOne /> */}
+   <FileThirteenDesignTwo />
+
     </div>
   );
 }
