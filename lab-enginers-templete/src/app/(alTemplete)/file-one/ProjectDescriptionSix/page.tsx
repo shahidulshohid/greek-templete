@@ -12,7 +12,7 @@ export default function ProjectDescriptionSix() {
                 </div>
                 <h1 className="text-xl font-bold mb-2">ΥΠΕΥΘΥΝΗ ΔΗΛΩΣΗ</h1>
                 <p className="text-sm">(άρθρο 8 Ν.1599/1986)</p>
-            </div>
+            </div>    
 
             {/* Subtitle */}
             <div className="text-center mb-6 text-sm">
