@@ -116,6 +116,16 @@ import FileFifteenDesignTen from "./(alTemplete)/file-fifteen/design-ten/page"
 import FileFifteenDesignEleven from "./(alTemplete)/file-fifteen/design-eleven/page"
 import FileFifteenDesignTweleve from "./(alTemplete)/file-fifteen/design-tweleve/page"
 import FileFifteenDesignthirteen from "./(alTemplete)/file-fifteen/design-thirteen/page"
+import FileTwelveDesignThree from "./(alTemplete)/file-twelve/design-three/page"
+import FileTwelveDesignFour from "./(alTemplete)/file-twelve/design-four/page"
+import FileTwelveDesignFive from "./(alTemplete)/file-twelve/design-five/page"
+import FileTwelveDesignSix from "./(alTemplete)/file-twelve/design-six/page"
+import FileTwelveDesignSeven from "./(alTemplete)/file-twelve/design-seven/page"
+import FileTwelveDesignEight from "./(alTemplete)/file-twelve/design-eight/page"
+import FileTwelveDesignNine from "./(alTemplete)/file-twelve/design-nine/page"
+import FileTwelveDesignTen from "./(alTemplete)/file-twelve/design-ten/page"
+import FileTwelveDesignEleven from "./(alTemplete)/file-twelve/design-eleven/page"
+import FileTwelveDesigmTwelve from "./(alTemplete)/file-twelve/design-twelve/page"
 
 
 
@@ -124,8 +134,8 @@ function Home() {
     <div className='p-8'>
       {/* file one =================== */}
       {/* <ProjectDescriptionOne/> */}
-      <ProjectDescriptionTwo/>
-      <ProjectDescriptionThree/>
+      {/* <ProjectDescriptionTwo/> */}
+      {/* <ProjectDescriptionThree/> */}
       {/* <ProjectDescriptionFour/> */}
       {/* <ProjectDescriptionFive/> */}
       {/* <ProjectDescriptionSix/> */}
@@ -262,10 +272,21 @@ function Home() {
       {/* <FileFifteenDesignTen></FileFifteenDesignTen> */}
       {/* <FileFifteenDesignEleven></FileFifteenDesignEleven> */}
       {/* <FileFifteenDesignTweleve></FileFifteenDesignTweleve> */}
-      <FileFifteenDesignthirteen></FileFifteenDesignthirteen>
+      {/* <FileFifteenDesignthirteen></FileFifteenDesignthirteen> */}
       
       {/* <FileFifteenDesignFive /> */}
-
+     
+      {/* file twelve */}
+      {/* <FileTwelveDesignThree></FileTwelveDesignThree> */}
+      {/* <FileTwelveDesignFour></FileTwelveDesignFour> */}
+      {/* <FileTwelveDesignFive></FileTwelveDesignFive> */}
+      {/* <FileTwelveDesignSix></FileTwelveDesignSix> */}
+      {/* <FileTwelveDesignSeven></FileTwelveDesignSeven> */}
+      {/* <FileTwelveDesignEight></FileTwelveDesignEight> */}
+      {/* <FileTwelveDesignNine></FileTwelveDesignNine> */}
+      {/* <FileTwelveDesignTen></FileTwelveDesignTen> */}
+      {/* <FileTwelveDesignEleven></FileTwelveDesignEleven> */}
+      <FileTwelveDesigmTwelve></FileTwelveDesigmTwelve>
 
 
       
