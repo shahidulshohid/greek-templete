@@ -135,8 +135,77 @@ function Home() {
       {/* <ProjectDescriptionTen/> */}
       {/* <ProjectDescriptionEleven/> */}
 
+      
 
-      {/* <DesignFive/> */}
+      {/* file two ==================== */}
+      {/* <FileTwoDesignOne/> */}
+      {/* <FileTwoDesignTwo/> */}
+      {/* <FileTwoDesignThree/> */}
+      {/* <FileTwoDesignFour/> */}
+      {/* <FileTwoDesignFive/> */}
+      {/* <FileTwoDesignSix/> */}
+      {/* <FileTwoDesignSeven/> */}
+      {/* <FileTwoDesignEight/> */}
+      {/* <FileTwoDesignNine/> */}
+      {/* <FileTwoDesignTen/> */}
+      {/* <FileTwoDesignEleven/> */}
+      {/* <FileTwoDesignTwelve/> */}
+      {/* <FileTwoDesignThirteen/> */}
+      
+
+      {/* file three ================= */}
+      {/* <FileThreeDesignOne /> */}
+      {/* <FileThreeDesignTwo /> */}
+      {/* <FileThreeDesignThree /> */}
+      {/* <FileThreeDesignFour /> */}
+      {/* <FileThreeDesignFive /> */}
+      {/* <FileThreeDesignSix /> */}
+      {/* <FileThreeDesignSeven /> */}
+      {/* <FileThreeDesignEight />  */}
+      {/* <FileThreeDesignNine/> */}
+      {/* <FileThreeDesignTen/> */}
+      {/* <FileThreeDesignEleven /> */}
+      
+      {/* file four ===================== */}
+      {/* <FileFourDesignOne/> */}
+      {/* <FileFourDesignTwo/> */}
+      {/* <FileFourDesignThree/> */}
+      {/* <FileFourDesignFour/> */}
+      {/* <FileFourDesignFive/> */}
+      {/* <FileFourDesignSix/> */}
+      {/* <FileFourDesignSeven/> */}
+      {/* <FileFourDesignEight/> */}
+      {/* <FileFourDesignNine/> */}
+      {/* <FileFourDesignTen/> */}
+
+      
+      {/* file five ======================= */}
+      {/* <FileFiveDesignOne/> */}
+      {/* <FileFiveDesignTwo/> */}
+      {/* <FileFiveDesignThree/> */}
+      {/* <FileFiveDesignFour/> */}
+      {/* <FileFiveDesignFive/> */}
+      {/* <FileFiveDesignSix/> */}
+      {/* <FileFiveDesignSeven/> */}
+      {/* <FileFiveDesignEight/> */}
+      {/* <FileFiveDesignNine/> */}
+      {/* <FileFiveDesignTen/> */}
+
+      
+      {/* file six ========================== */}
+      {/* <FileSixDesignOne/> */}
+      {/* <FileSixDesignTwo/> */}
+      {/* <FileSixDesignThree/> */}
+      {/* <FileSixDesignFour/> */}
+      {/* <FileSixDesignFive/> */}
+      {/* <FileSixDesignSix/> */}
+      {/* <FileSixDesignSeven/> */}
+      {/* <FileSixDesignEight/> */}
+      {/* <FileSixDesignNine/> */}
+      {/* <FileSixDesignTen/> */}
+      {/* <FileSixDesignEleven/> */}
+
+
 
       {/* file Nine  */}
       {/* <NineFileDesignOne></NineFileDesignOne> */}
@@ -165,37 +234,6 @@ function Home() {
       {/* <TenFileDesignEleven></TenFileDesignEleven> */}
       {/* <TenFileDesignTwelve></TenFileDesignTwelve> */}
       {/* <TenFileDesignThirteen></TenFileDesignThirteen> */}
-      
-      
-      
-
-      {/* file two  */}
-      {/* <FileTwoDesignOne/> */}
-      {/* <FileTwoDesignTwo/> */}
-      {/* <FileTwoDesignThree/> */}
-      {/* <FileTwoDesignFour/> */}
-      {/* <FileTwoDesignFive/> */}
-      {/* <FileTwoDesignSix/> */}
-      {/* <FileTwoDesignSeven/> */}
-      {/* <FileTwoDesignEight/> */}
-      {/* <FileTwoDesignNine/> */}
-      {/* <FileTwoDesignTen/> */}
-      {/* <FileTwoDesignEleven/> */}
-      {/* <FileTwoDesignTwelve/> */}
-      {/* <FileTwoDesignThirteen/> */}
-
-      {/* file three ================= */}
-      {/* <FileThreeDesignOne /> */}
-      {/* <FileThreeDesignTwo /> */}
-      {/* <FileThreeDesignThree /> */}
-      {/* <FileThreeDesignFour /> */}
-      {/* <FileThreeDesignFive /> */}
-      {/* <FileThreeDesignSix /> */}
-      {/* <FileThreeDesignSeven /> */}
-      {/* <FileThreeDesignEight />  */}
-      {/* <FileThreeDesignNine/> */}
-      {/* <FileThreeDesignTen/> */}
-      {/* <FileThreeDesignEleven /> */}
 
 
       {/* file Fourteen */}
@@ -213,43 +251,6 @@ function Home() {
       {/* <FileFourteenDesignFourteen></FileFourteenDesignFourteen> */}
       {/* <FileFourteenDesignFifteen></FileFourteenDesignFifteen> */}
       
-      {/* file four  */}
-      {/* <FileFourDesignOne/> */}
-      {/* <FileFourDesignTwo/> */}
-      {/* <FileFourDesignThree/> */}
-      {/* <FileFourDesignFour/> */}
-      {/* <FileFourDesignFive/> */}
-      {/* <FileFourDesignSix/> */}
-      {/* <FileFourDesignSeven/> */}
-      {/* <FileFourDesignEight/> */}
-      {/* <FileFourDesignNine/> */}
-      {/* <FileFourDesignTen/> */}
-
-      {/* file five  */}
-      {/* <FileFiveDesignOne/> */}
-      {/* <FileFiveDesignTwo/> */}
-      {/* <FileFiveDesignThree/> */}
-      {/* <FileFiveDesignFour/> */}
-      {/* <FileFiveDesignFive/> */}
-
-      {/* <FileFiveDesignSix/> */}
-      {/* <FileFiveDesignSeven/> */}
-      {/* <FileFiveDesignEight/> */}
-      {/* <FileFiveDesignNine/> */}
-      {/* <FileFiveDesignTen/> */}
-      
-      {/* file six  */}
-      <FileSixDesignOne/>
-      {/* <FileSixDesignTwo/> */}
-      {/* <FileSixDesignThree/> */}
-      {/* <FileSixDesignFour/> */}
-      {/* <FileSixDesignFive/> */}
-      {/* <FileSixDesignSix/> */}
-      {/* <FileSixDesignSeven/> */}
-      {/* <FileSixDesignEight/> */}
-      {/* <FileSixDesignNine/> */}
-      {/* <FileSixDesignTen/> */}
-      {/* <FileSixDesignEleven/> */}
 
       {/* file fifteen  */}
       {/* <FileFifteenDesignThree></FileFifteenDesignThree> */}
@@ -262,7 +263,8 @@ function Home() {
       {/* <FileFifteenDesignTen></FileFifteenDesignTen> */}
       {/* <FileFifteenDesignEleven></FileFifteenDesignEleven> */}
       {/* <FileFifteenDesignTweleve></FileFifteenDesignTweleve> */}
-      <FileFifteenDesignthirteen></FileFifteenDesignthirteen>
+      {/* <FileFifteenDesignthirteen></FileFifteenDesignthirteen> */}
+    
       
       {/* <FileFifteenDesignFive /> */}
 
