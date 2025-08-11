@@ -1,6 +1,7 @@
+import StampComponent from "@/component/shared/dashed/Dashed";
 
 
-export default function ProjectDescriptionSix() {
+export default function ElevenFileDesignTen() {
     return (
         <div className="max-w-[794px] mx-auto p-4 bg-white">
             {/* Header with coat of arms */}
@@ -12,7 +13,7 @@ export default function ProjectDescriptionSix() {
                 </div>
                 <h1 className="text-xl font-bold mb-2">ΥΠΕΥΘΥΝΗ ΔΗΛΩΣΗ</h1>
                 <p className="text-sm">(άρθρο 8 Ν.1599/1986)</p>
-            </div>    
+            </div>
 
             {/* Subtitle */}
             <div className="text-center mb-6 text-sm">
@@ -33,13 +34,13 @@ export default function ProjectDescriptionSix() {
                     </div>
                 </div>
 
-                {/* Name Owner row */}
+                {/* Name Engineer row */}
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Ο-Η Όνομα</div>
-                        <div className="w-40 p-2 border-r border-gray-400  font-bold">Name Owner</div>
+                        <div className="w-40 p-2 border-r border-gray-400  font-bold">Name Engineer</div>
                         <div className="w-20 p-2 border-r border-gray-400 text-sm">Επώνυμο</div>
-                        <div className="flex-1 p-2  font-bold">Surname Owner</div>
+                        <div className="flex-1 p-2  font-bold">Surname Engineer</div>
                     </div>
                 </div>
 
@@ -47,7 +48,7 @@ export default function ProjectDescriptionSix() {
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Όνομα και Επώνυμο Πατρός</div>
-                        <div className="flex-1 p-2 font-bold">Fathers name and surname Owner</div>
+                        <div className="flex-1 p-2 font-bold">Fathers name and surname Engineer</div>
                     </div>
                 </div>
 
@@ -55,7 +56,7 @@ export default function ProjectDescriptionSix() {
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Όνομα και Επώνυμο Μητρός</div>
-                        <div className="flex-1 p-2 font-bold">Mothers name and surname Owner</div>
+                        <div className="flex-1 p-2 font-bold">Mothers name and surname Engineer</div>
                     </div>
                 </div>
 
@@ -111,7 +112,7 @@ export default function ProjectDescriptionSix() {
                                 <div>ίου (Email):</div>
                             </div>
                         </div>
-                        <div className="w-32 p-2 underline">email owner</div>
+                        <div className="w-32 p-2 underline">email engineer</div>
                     </div>
                 </div>
 
@@ -119,7 +120,7 @@ export default function ProjectDescriptionSix() {
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Α.Φ.Μ.:</div>
-                        <div className="flex-1 p-2 font-bold">VAT Owner</div>
+                        <div className="flex-1 p-2 font-bold">VAT Engineer</div>
                         <div className="w-32 p-2 border-l border-gray-400 text-sm">Δ.Ο.Υ.:</div>
                     </div>
                 </div>
@@ -130,23 +131,17 @@ export default function ProjectDescriptionSix() {
                         Με ατομική μου ευθύνη και γνωρίζοντας τις κυρώσεις(3), που προβλέπονται από τις διατάξεις της παρ. 6 του άρθρου 22 του Ν.1599/1986, δηλώνω ότι:
                     </p>
 
-                    <p className="my-4">ως κύριος/ιδιοκτήτης του ακινήτου που βρίσκεται επί της οδού ([Address, Number, Town, Postal code], <span className="font-bold">αναθέτω</span> στον/στην Διπλωματούχο
-                        Μηχανικό <span className="font-bold">( Engineers Surname  ,  Engineer's Name, Specialty Engineer AM TEE)</span></p>
-
-                    <p className=" font-bold">για το έργο με τίτλο :</p>
-                    <p className=" mb-6">PROJECT DESCRIPTION</p>
+                    <p className="font-bold">
+                        για το οικοδομικό έργο με τίτλο :</p>
+                    <p className="mb-6">PROJECT DESCRIPTION</p>
                 </div>
 
                 {/* Additional disclaimer text */}
-                <div className="p-4 text-sm space-y-3">
-                    <p >
-                        τη συνολική διαχείριση του έργου στο ηλεκτρονικό σύστημα του ΤΕΕ - eadeies που αφορά:
+                <div className="p-4 text-sm ">
+                    <p className="">
+                        <span className="font-bold">δεν προβλέπεται η παραγωγή αποβλήτων τύπου ΑΕΚΚ</span> (Απόβλητα Εκσκαφών, Κατασκευών και Κατεδαφίσεων),
+                        καθώς οι προβλεπόμενες εργασίες δεν περιλαμβάνουν καθαιρέσεις, εκσκαφές ή κατασκευαστικές επεμβάσεις που να παράγουν απόβλητα ΑΕΚΚ.
                     </p>
-                    <p>●Την εκπόνηση και υποβολή των απαραίτητων μελετών (στατικών, αρχιτεκτονικών, τεχνικών, περιβαλλοντικών κ.ά.) όπου απαιτείται.</p>
-                    <p>
-                        ●Την κατάρτιση και υποβολή του φακέλου στην αρμόδια υπηρεσία (e-Άδειες / ΥΔΟΜ )</p>
-                    <p>
-                        ●Τη συνεργασία με άλλους ειδικούς/μελετητές, όπου απαιτείται</p>
                 </div>
 
                 {/* Signature section */}
@@ -155,14 +150,18 @@ export default function ProjectDescriptionSix() {
                         <div className="text-right space-y-2">
                             <div className="flex items-center gap-4">
                                 <span className="text-sm">Ημερομηνία :</span>
-                                <span className="text-sm font-medium">8/5/2025</span>
+                                <span className="text-sm font-medium">8/6/2025</span>
                             </div>
                             <div className="text-sm mt-8 text-center">
                                 <div>( Υπογραφή )</div>
-                                <div className="mt-4">Ο/Η Δηλώνουσα</div>
+                                <div className="mt-4">Ο Δηλών</div>
                             </div>
                         </div>
                     </div>
+                </div>
+                {/* common component  */}
+                <div className="flex items-center justify-center mt-6">
+                    <StampComponent/>
                 </div>
             </div>
         </div>
