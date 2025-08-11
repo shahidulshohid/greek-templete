@@ -1,7 +1,7 @@
 import StampComponent from "@/component/shared/dashed/Dashed";
 
 
-export default function ProjectDescriptionThree() {
+export default function FileFiveDesignFour() {
     return (
         <div className="max-w-[794px] mx-auto p-4 bg-white">
             {/* Header with coat of arms */}
@@ -12,7 +12,7 @@ export default function ProjectDescriptionThree() {
                     </div>
                 </div>
                 <h1 className="text-xl font-bold mb-2">ΥΠΕΥΘΥΝΗ ΔΗΛΩΣΗ</h1>
-                <p className="text-sm">(άρθρο 8 Ν.1599/1986)</p>
+                <p className="text-sm font-bold">(άρθρο 8 Ν.1599/1986)</p>
             </div>
 
             {/* Subtitle */}
@@ -47,7 +47,7 @@ export default function ProjectDescriptionThree() {
                 {/* Father's name row */}
                 <div className="border-b border-gray-400">
                     <div className="flex">
-                        <div className="w-50 p-2 border-r border-gray-400 text-sm">Όνομα και Επώνυμο Πατρός</div>
+                        <div className="w-32 p-2 border-r border-gray-400 text-sm">Όνομα και Επώνυμο Πατρός</div>
                         <div className="flex-1 p-2 font-bold">Fathers name and surname Engineer</div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ export default function ProjectDescriptionThree() {
                 {/* Mother's name row */}
                 <div className="border-b border-gray-400">
                     <div className="flex">
-                        <div className="w-50 p-2 border-r border-gray-400 text-sm">Όνομα και Επώνυμο Μητρός</div>
+                        <div className="w-32 p-2 border-r border-gray-400 text-sm">Όνομα και Επώνυμο Μητρός</div>
                         <div className="flex-1 p-2 font-bold">Mothers name and surname Engineer</div>
                     </div>
                 </div>
@@ -63,25 +63,25 @@ export default function ProjectDescriptionThree() {
                 {/* Birth date row */}
                 <div className="border-b border-gray-400">
                     <div className="flex">
-                        <div className="w-50 p-2 border-r border-gray-400 text-sm">Ημερομηνία γέννησης(2):</div>
-                        <div className="flex-1 p-2 font-bold">Born date Engineer</div>
+                        <div className="w-32 p-2 border-r border-gray-400 text-sm">Ημερομηνία γέννησης(2):</div>
+                        <div className="flex-1 p-2 font-bold">Born date</div>
                     </div>
                 </div>
 
                 {/* Birth town row */}
                 <div className="border-b border-gray-400">
                     <div className="flex">
-                        <div className="w-50 p-2 border-r border-gray-400 text-sm">Τόπος Γέννησης</div>
-                        <div className="flex-1 p-2 font-bold">Born Town Engineer</div>
+                        <div className="w-32 p-2 border-r border-gray-400 text-sm">Τόπος Γέννησης</div>
+                        <div className="flex-1 p-2 font-bold">Born Town</div>
                     </div>
                 </div>
 
                 {/* ID and mobile row */}
                 <div className="border-b border-gray-400">
                     <div className="flex">
-                        <div className="w-50 p-2 border-r border-gray-400 text-sm">Αριθμός Δελτίου Ταυτότητας</div>
-                        <div className="w-30 p-2 border-r border-gray-400 font-bold">ID</div>
-                        <div className="w-24 p-2 border-r border-gray-400 text-sm">Τηλ.:</div>
+                        <div className="w-32 p-2 border-r border-gray-400 text-sm">Αριθμός Δελτίου Ταυτότητας</div>
+                        <div className="w-20 p-2 border-r border-gray-400 font-bold">ID</div>
+                        <div className="w-16 p-2 border-r border-gray-400 text-sm">Τηλ.:</div>
                         <div className="flex-1 p-2 font-bold">mobile</div>
                     </div>
                 </div>
@@ -89,33 +89,30 @@ export default function ProjectDescriptionThree() {
                 {/* Address row */}
                 <div className="border-b border-gray-400">
                     <div className="flex">
-                        <div className="w-29 p-1 border-r border-gray-400 text-sm">Τόπος κατοικίας</div>
-                        <div className="w-26 p-1 border-r border-gray-400 font-bold ">Town</div>
-                        <div className="p-2 border-r border-gray-400 text-sm">Οδός</div>
-                        <div className="w-28 p-1 border-r border-gray-400 font-bold ">Address</div>
-                        <div className="w-16 p-1 border-r border-gray-400 text-sm">Αριθ</div>
-                        <div className="w-22 p-1 border-r border-gray-400 font-bold ">Number</div>
-                        <div className="w-12 p-1 border-r border-gray-400 text-sm">ΤΚ</div>
-                        <div className="flex-1 p-1 font-bold">postal code</div>
+                        <div className="w-32 p-2 border-r border-gray-400 text-sm">Τόπος κατοικίας</div>
+                        <div className="w-20 p-2 border-r border-gray-400 font-bold ">Town</div>
+                        <div className="w-16 p-2 border-r border-gray-400 text-sm">Οδός</div>
+                        <div className="w-24 p-2 border-r border-gray-400 font-bold ">Address</div>
+                        <div className="w-16 p-2 border-r border-gray-400 text-sm">Αριθ</div>
+                        <div className="w-20 p-2 border-r border-gray-400 font-bold ">Number</div>
+                        <div className="w-12 p-2 border-r border-gray-400 text-sm">ΤΚ</div>
+                        <div className="flex-1 p-2 font-bold">postal code</div>
                     </div>
                 </div>
 
                 {/* Contact details row */}
                 <div className="border-b border-gray-400">
                     <div className="flex">
-                        <div className="w-50 p-2 border-r border-gray-400 text-sm flex items-center">
-                            Αρ. Τηλεομοιότυπου (Fax):
-                        </div>
-                        <div className="w-19 ml-2 border-r border-gray-400 flex items-center">-</div>
-                        <div className="flex">
-                            <div className="text-sm border-r border-gray-400 ml-2">
+                        <div className="w-32 p-2 border-r border-gray-400 text-sm">Αρ. Τηλεομοιότυπου (Fax):</div>
+                        <div className="flex-1 p-2">
+                            <div className="text-sm">
                                 <div>Δ/νση</div>
                                 <div>Ηλεκτρ.</div>
                                 <div>Ταχυδρομ</div>
                                 <div>ίου (Email):</div>
                             </div>
                         </div>
-                        <div className="w-32 p-2 underline text-sm flex items-center ml-2">email engineer</div>
+                        <div className="w-32 p-2 underline">email engineer</div>
                     </div>
                 </div>
 
@@ -123,9 +120,8 @@ export default function ProjectDescriptionThree() {
                 <div className="border-b border-gray-400">
                     <div className="flex">
                         <div className="w-32 p-2 border-r border-gray-400 text-sm">Α.Φ.Μ.:</div>
-                        <div className="w-39 p-2 font-bold">VAT Engineer</div>
-                        <div className="w-20 p-2 border-l border-gray-400 text-sm border-r border-gray-400">Δ.Ο.Υ.:</div>
-                        <div className="ml-2 flex items-center">-</div>
+                        <div className="flex-1 p-2 font-bold">VAT Engineer</div>
+                        <div className="w-32 p-2 border-l border-gray-400 text-sm">Δ.Ο.Υ.:</div>
                     </div>
                 </div>
 
@@ -134,24 +130,18 @@ export default function ProjectDescriptionThree() {
                     <p className="mb-4">
                         Με ατομική μου ευθύνη και γνωρίζοντας τις κυρώσεις(3), που προβλέπονται από τις διατάξεις της παρ. 6 του άρθρου 22 του Ν.1599/1986, δηλώνω ότι:
                     </p>
-
-                    <p className="mb-4">
-
-
-                        ως κύριος/ιδιοκτήτης του ακινήτου που βρίσκεται επί της οδού ([Address, Number, Town,
-                        Postal code],<span className="font-bold">συναινώ ρητά και ανεπιφύλακτα</span> στην έκδοση Έγκρισης
-                        Εργασιών Μικρής Κλίμακας για την εκτέλεση των  εργασιών,
+                    <p className=" font-bold">
+                        για το οικοδομικό έργο με τίτλο :
                     </p>
-
-                    <p className="font-bold">για το έργο με τίτλο :</p>
                     <p className=" mb-6">PROJECT DESCRIPTION</p>
                 </div>
 
                 {/* Additional disclaimer text */}
                 <div className="p-4 text-sm ">
-                    <p className="">
-                        Η παρούσα δήλωση παρέχεται αποκλειστικά για την κάλυψη των απαιτήσεων του άρθρου 29 του Ν.4495/2017 και των
-                        σχετικών κανονιστικών πράξεων.
+                    <p className="mb-6">
+                        <span className="font-semibold">δεν προβλέπεται η παραγωγή αποβλήτων τύπου ΑΕΚΚ</span> (Απόβλητα Εκσκαφών, Κατασκευών και Κατεδαφίσεων),
+                        καθώς οι προβλεπόμενες εργασίες δεν περιλαμβάνουν καθαιρέσεις, εκσκαφές ή κατασκευαστικές επεμβάσεις
+                        που να παράγουν απόβλητα ΑΕΚΚ.
                     </p>
                 </div>
 
@@ -161,38 +151,23 @@ export default function ProjectDescriptionThree() {
                         <div className="text-right space-y-2">
                             <div className="flex items-center gap-4">
                                 <span className="text-sm">Ημερομηνία :</span>
-                                <span className="text-sm font-medium">8/5/2025</span>
+                                <span className="text-sm font-medium">8/6/2025</span>
                             </div>
                             <div className="text-sm mt-8 text-center">
                                 <div>( Υπογραφή )</div>
-                                <div className="mt-4">Ο/Η Δηλώνουσα</div>
+                                <div className="mt-4">Ο Δηλών</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 {/* common component  */}
-                <div className="flex items-center justify-center mt-6">
+                <div className="flex justify-center items-center mt-6">
                     <StampComponent />
                 </div>
             </div>
         </div>
     )
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -1,10 +1,9 @@
-
-
+ 
 "use client"
-
+ 
 import StampComponent from "@/component/shared/dashed/Dashed"
-
-export default function FileThreeDesignTen() {
+ 
+export default function FileFourteenDesignFour() {
     const descriptions = [
         {
             "id": 1,
@@ -149,7 +148,6 @@ export default function FileThreeDesignTen() {
             "description": "Technical Description 13 of the project"
         },
     ]
-
     return (
         <div className="max-w-[794px] mx-auto p-4 bg-white space-y-8">
             {/* ΦΑΚΕΛΟΣ ΑΣΦΑΛΕΙΑΣ ΚΑΙ ΥΓΕΙΑΣ first stp=========================*/}
@@ -302,7 +300,7 @@ export default function FileThreeDesignTen() {
                             </div>
                             <div className="flex items-center justify-center gap-2">
                                 <span className=" ">Ημερομηνία :</span>
-                                <span className=" ">2/8/2025</span>
+                                <span className=" ">6/8/2025</span>
                             </div>
                         </div>
                     </div>
@@ -386,7 +384,7 @@ export default function FileThreeDesignTen() {
                     <div className="border-b border-gray-400">
                         <div className="grid grid-cols-12">
                             <div className="col-span-1 border-r border-gray-400 p-2 text-center font-bold">#REF!</div>
-                            <div className="col-span-11 p-2 text-sm">Ειδικοί κίνδυνοι του παραρτ. ΙΙΙ του ΠΔ 305/96 (πλην &1) δεν υπάρχουν.</div>
+                            <div className="col-span-11 p-2 text-sm">Πιθανός κίνδυνος πτώσεως αντικειμένων και υλικών. </div>
                         </div>
                     </div>
                 </div>
@@ -424,7 +422,7 @@ export default function FileThreeDesignTen() {
                     <div className="border-b border-gray-400">
                         <div className="grid grid-cols-12">
                             <div className="col-span-1 border-r border-gray-400 p-2 text-center font-bold">#REF!</div>
-                            <div className="col-span-11 p-2 text-sm">Πιθανός κίνδυνος πτώσεως αντικειμένων και υλικών.</div>
+                            <div className="col-span-11 p-2 text-sm">Ειδικοί κίνδυνοι του παραρτ. ΙΙΙ του ΠΔ 305/96 (πλην &1) δεν υπάρχουν. </div>
                         </div>
                     </div>
                 </div>
@@ -437,46 +435,52 @@ export default function FileThreeDesignTen() {
                     <div className="space-y-6 text-sm">
                         <ul className="p-2 space-y-4">
                             <li className="flex items-center gap-2">
+                                <p>1.</p>
                                 <div>
-                                    <p>1. Προσπέλαση στο εργοτάξιο, πρόσβαση στις θέσεις εργασίας:</p>
-                                    <p className="ml-4">Δεν απαιτείται ιδιαίτερη μέριμνα πέραν των συνθηκών.</p>
+                                    <p>Προσπέλαση στο εργοτάξιο, πρόσβαση στις θέσεις εργασίας:</p>
+                                    <p>Δεν απαιτείται ιδιαίτερη μέριμνα πέραν των συνθηκών.</p>
                                 </div>
                             </li>
                             <li className="flex items-center gap-2">
+                                <p>2.</p>
                                 <div>
-                                    <p>2. Κυκλοφορία οχημάτων και πεζών εντός του εργοταξίου:</p>
-                                    <p className="ml-4">Δεν απαιτείται ιδιαίτερη μέριμνα πέραν των συνθηκών.</p>
+                                    <p>Κυκλοφορία οχημάτων και πεζών εντός του εργοταξίου:</p>
+                                    <p>Δεν απαιτείται ιδιαίτερη μέριμνα πέραν των συνθηκών.</p>
                                 </div>
                             </li>
                             <li className="flex items-center gap-2">
+                                <p>3.</p>
                                 <div>
-                                    <p>3. Χώροι αποθήκευσης υλικών και τρόπος αποκομιδής αχρήστων:</p>
-                                    <p className="ml-4">Αποθήκευση στον ακάλυπτο χώρο της οικοδομής και αποκομιδή αχρήστων με μηχανικά μέσα.</p>
+                                    <p>Χώροι αποθήκευσης υλικών και τρόπος αποκομιδής αχρήστων:</p>
+                                    <p>Αποθήκευση στον ακάλυπτο χώρο της οικοδομής και αποκομιδή αχρήστων με μηχανικά μέσα.</p>
                                 </div>
                             </li>
                             <li className="flex items-center gap-2">
+                                <p>4.</p>
                                 <div>
-                                    <p>4. Διευθέτηση αποκομιδής επικίνδυνων υλικών:</p>
-                                    <p className="ml-4">Συγκέντρωση επικίνδυνων υλικών για αποκομιδή και σωστή διάθεση.</p>
+                                    <p>Διευθέτηση αποκομιδής επικίνδυνων υλικών:</p>
+                                    <p>Συγκέντρωση επικίνδυνων υλικών για αποκομιδή και σωστή διάθεση.</p>
                                 </div>
                             </li>
                             <li className="flex items-center gap-2">
+                                <p>5.</p>
                                 <div>
-                                    <p>5. Χώροι υγιεινής, εστίασης και πρώτων βοηθειών:</p>
-                                    <p className="ml-4">Θα δημιουργηθεί προχείρο W.C. και φραγμένο από το ισόγειο.</p>
+                                    <p>Χώροι υγιεινής, εστίασης και πρώτων βοηθειών:</p>
+                                    <p>Θα δημιουργηθεί προχείρο W.C. και φραγμένο από το ισόγειο.</p>
                                 </div>
                             </li>
                             <li className="flex items-center gap-2">
+                                <p>6.</p>
                                 <div>
-                                    <p>6. Κατασκευή ικριωμάτων:</p>
-                                    <p className="ml-4">Συνήθης μορφή ικριωμάτων χρησιμοποιώντας κανονιστικά πρότυπα.</p>
+                                    <p>Κατασκευή ικριωμάτων:</p>
+                                    <p>Συνήθης μορφή ικριωμάτων χρησιμοποιώντας κανονιστικά πρότυπα.</p>
                                 </div>
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <div className="mt-12 text-right ml-6">
+                <div className="mt-12 text-right">
                     <div className="flex justify-start items-start gap-30">
                         <div className="">
                             <h3 className="text-center mb-4">Ο ΣΥΝΤΑΞΑΣ</h3>
@@ -492,7 +496,7 @@ export default function FileThreeDesignTen() {
                         </div>
                         <div className="flex items-center justify-center gap-2">
                             <span className=" ">Ημερομηνία :</span>
-                            <span className=" ">2/8/2025</span>
+                            <span className=" ">6/8/2025</span>
                         </div>
                     </div>
                 </div>

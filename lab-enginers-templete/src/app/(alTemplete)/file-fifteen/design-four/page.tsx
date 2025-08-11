@@ -4,7 +4,7 @@
 
 import StampComponent from "@/component/shared/dashed/Dashed"
 
-export default function FileThreeDesignTen() {
+export default function FileFifteenDesignFour() {
     const descriptions = [
         {
             "id": 1,
@@ -156,7 +156,7 @@ export default function FileThreeDesignTen() {
             <div className="border border-gray-400">
                 {/* Header */}
                 <div className="text-center p-4">
-                    <h1 className="text-xl font-bold mb-2">ΦΑΚΕΛΟΣ ΑΣΦΑΛΕΙΑΣ ΚΑΙ ΥΓΕΙΑΣ (Φ.Α.Υ.)</h1>
+                    <h1 className="text-xl font-bold mb-2">ΦΑΚΕΛΟΣ ΑΣΦΑΛΕΙΑΣ ΚΑΙ ΥΓΕΙΑΣ </h1>
                     <p className="text-xl font-bold">(Φ.Α.Υ.)</p>
                     <p className="text-lg font-bold">(Π.Δ. 305/96, άρθρο 3 - παρ. 3, 7, 8, 9, 10, 11)</p>
                 </div>
@@ -386,7 +386,7 @@ export default function FileThreeDesignTen() {
                     <div className="border-b border-gray-400">
                         <div className="grid grid-cols-12">
                             <div className="col-span-1 border-r border-gray-400 p-2 text-center font-bold">#REF!</div>
-                            <div className="col-span-11 p-2 text-sm">Ειδικοί κίνδυνοι του παραρτ. ΙΙΙ του ΠΔ 305/96 (πλην &1) δεν υπάρχουν.</div>
+                            <div className="col-span-11 p-2 text-sm">Πιθανός κίνδυνος πτώσεως αντικειμένων και υλικών. </div>
                         </div>
                     </div>
                 </div>
@@ -424,7 +424,7 @@ export default function FileThreeDesignTen() {
                     <div className="border-b border-gray-400">
                         <div className="grid grid-cols-12">
                             <div className="col-span-1 border-r border-gray-400 p-2 text-center font-bold">#REF!</div>
-                            <div className="col-span-11 p-2 text-sm">Πιθανός κίνδυνος πτώσεως αντικειμένων και υλικών.</div>
+                            <div className="col-span-11 p-2 text-sm">Ειδικοί κίνδυνοι του παραρτ. ΙΙΙ του ΠΔ 305/96 (πλην &1) δεν υπάρχουν. </div>
                         </div>
                     </div>
                 </div>
