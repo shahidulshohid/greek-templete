@@ -1,5 +1,5 @@
 
-function ProjectDescriptionOne() {
+function FileOneDesignOne() {
     return (
         <div className="max-w-[794px] mx-auto">
             <div className=" bg-white">
@@ -74,4 +74,4 @@ function ProjectDescriptionOne() {
     )
 }
 
-export default ProjectDescriptionOne
+export default FileOneDesignOne
