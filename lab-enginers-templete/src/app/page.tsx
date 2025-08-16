@@ -1,42 +1,31 @@
 
 import FileFifteenDesignFive from "./(alTemplete)/file-fifteen/design-five/page"
-import ProjectDescriptionEight from "./(alTemplete)/file-one/project-description-eight/page"
-import ProjectDescriptionEleven from "./(alTemplete)/file-one/project-description-eleven/page"
-import ProjectDescriptionNine from "./(alTemplete)/file-one/project-description-nine/page"
-import ProjectDescriptionOne from "./(alTemplete)/file-one/project-description-one/page"
-import ProjectDescriptionTen from "./(alTemplete)/file-one/project-description-ten/page"
-import ProjectDescriptionTwo from "./(alTemplete)/file-one/project-description-two/page"
-import NineFileDesignEight from "./(alTemplete)/NineFileDesignEight/page"
-import NineFileDesignEleven from "./(alTemplete)/NineFileDesignEleven/page"
-import NineFileDesignFive from "./(alTemplete)/NineFileDesignFive/page"
-import NineFileDesignFour from "./(alTemplete)/NineFileDesignFour/page"
-import NineFileDesignNine from "./(alTemplete)/NineFileDesignNine/page"
-import NineFileDesignOne from "./(alTemplete)/NineFileDesignOne/page"
-import NineFileDesinSeven from "./(alTemplete)/NineFileDesignSeven/page"
-import NineFileDesignSix from "./(alTemplete)/NineFileDesignSix/page"
+import NineFileDesignEight from "./(alTemplete)/file-nine/NineFileDesignEight/page"
+import NineFileDesignEleven from "./(alTemplete)/file-nine/NineFileDesignEleven/page"
+import NineFileDesignFive from "./(alTemplete)/file-nine/NineFileDesignFive/page"
+import NineFileDesignFour from "./(alTemplete)/file-nine/NineFileDesignFour/page"
+import NineFileDesignNine from "./(alTemplete)/file-nine/NineFileDesignNine/page"
+import NineFileDesignOne from "./(alTemplete)/file-nine/NineFileDesignOne/page"
+import NineFileDesinSeven from "./(alTemplete)/file-nine/NineFileDesignSeven/page"
+import NineFileDesignSix from "./(alTemplete)/file-nine/NineFileDesignSix/page"
 
-import NineFileDesignTen from "./(alTemplete)/NineFileDesignTen/page"
-import NineFileDesignThirteen from "./(alTemplete)/NineFileDesignThirteen/page"
-import NineFileDesignThree from "./(alTemplete)/NineFileDesignThree/page"
-import NineFileDesignTwelve from "./(alTemplete)/NineFileDesignTwelve/page"
-import NineFileDesignTwo from "./(alTemplete)/NineFileDesignTwo/page"
-import TenFileDesignEight from "./(alTemplete)/TenFileDesignEight/page"
-import TenFileDesignEleven from "./(alTemplete)/TenFileDesignEleven/page"
+import NineFileDesignTen from "./(alTemplete)/file-nine/NineFileDesignTen/page"
+import NineFileDesignThirteen from "./(alTemplete)/file-nine/NineFileDesignThirteen/page"
+import NineFileDesignThree from "./(alTemplete)/file-nine/NineFileDesignThree/page"
+import NineFileDesignTwelve from "./(alTemplete)/file-nine/NineFileDesignTwelve/page"
+import NineFileDesignTwo from "./(alTemplete)/file-nine/NineFileDesignTwo/page"
+import TenFileDesignEight from "./(alTemplete)/file-ten/TenFileDesignEight/page"
+import TenFileDesignEleven from "./(alTemplete)/file-ten/TenFileDesignEleven/page"
 
-import TenFileDesignFour from "./(alTemplete)/TenFileDesignFour/page"
-import TenFileDesignNine from "./(alTemplete)/TenFileDesignNine/page"
-import TenFileDesignSeven from "./(alTemplete)/TenFileDesignSeven/page"
-import TenFileDesignSix from "./(alTemplete)/TenFileDesignSix/page"
-import TenFileDesignTen from "./(alTemplete)/TenFileDesignTen/page"
-import TenFileDesignThirteen from "./(alTemplete)/TenFileDesignThirteen/page"
-import TenFileDesignThree from "./(alTemplete)/TenFileDesignThree/page"
-import TenFileDesignTwelve from "./(alTemplete)/TenFileDesignTwelve/page"
-import TenFileDesignFive from "./TenFileDesignFive/page"
-import ProjectDescriptionFive from "./(alTemplete)/file-one/ProjectDescriptionFive/page"
-import ProjectDescriptionFour from "./(alTemplete)/file-one/ProjectDescriptionFour/page"
-import ProjectDescriptionSeven from "./(alTemplete)/file-one/ProjectDescriptionSeven/page"
-import ProjectDescriptionSix from "./(alTemplete)/file-one/ProjectDescriptionSix/page"
-import ProjectDescriptionThree from "./(alTemplete)/file-one/ProjectDescriptionThree/page"
+import TenFileDesignFour from "./(alTemplete)/file-ten/TenFileDesignFour/page"
+import TenFileDesignNine from "./(alTemplete)/file-ten/TenFileDesignNine/page"
+import TenFileDesignSeven from "./(alTemplete)/file-ten/TenFileDesignSeven/page"
+import TenFileDesignSix from "./(alTemplete)/file-ten/TenFileDesignSix/page"
+import TenFileDesignTen from "./(alTemplete)/file-ten/TenFileDesignTen/page"
+import TenFileDesignThirteen from "./(alTemplete)/file-ten/TenFileDesignThirteen/page"
+import TenFileDesignThree from "./(alTemplete)/file-ten/TenFileDesignThree/page"
+import TenFileDesignTwelve from "./(alTemplete)/file-ten/TenFileDesignTwelve/page"
+import TenFileDesignFive from "./(alTemplete)/file-ten/TenFileDesignFive/page"
 import FileThreeDesignEight from "./(alTemplete)/file-three/design-eight/page"
 import FileThreeDesignEleven from "./(alTemplete)/file-three/design-eleven/page"
 import FileThreeDesignFive from "./(alTemplete)/file-three/design-five/page"
@@ -116,6 +105,17 @@ import FileFifteenDesignTen from "./(alTemplete)/file-fifteen/design-ten/page"
 import FileFifteenDesignEleven from "./(alTemplete)/file-fifteen/design-eleven/page"
 import FileFifteenDesignTweleve from "./(alTemplete)/file-fifteen/design-tweleve/page"
 import FileFifteenDesignthirteen from "./(alTemplete)/file-fifteen/design-thirteen/page"
+import FileOneDesignOne from "./(alTemplete)/file-one/design-one/page"
+import FileOneDesignTwo from "./(alTemplete)/file-one/design-two/page"
+import FileOneDesignThree from "./(alTemplete)/file-one/design-three/page"
+import FileOneDesignFour from "./(alTemplete)/file-one/design-four/page"
+import FileOneDesignFive from "./(alTemplete)/file-one/design-five/page"
+import FileOneDesignSix from "./(alTemplete)/file-one/design-six/page"
+import FileOneDesignSeven from "./(alTemplete)/file-one/design-seven/page"
+import FileOneDesignEight from "./(alTemplete)/file-one/design-eight/page"
+import FileOneDesignNine from "./(alTemplete)/file-one/design-nine/page"
+import FileOneDesignTen from "./(alTemplete)/file-one/design-ten/page"
+import FileOneDesignEleve from "./(alTemplete)/file-one/design-eleven/page"
 
 
 
@@ -123,17 +123,18 @@ function Home() {
   return (
     <div className='p-8'>
       {/* file one =================== */}
-      {/* <ProjectDescriptionOne/> */}
-      {/* <ProjectDescriptionTwo/> */}
-      {/* <ProjectDescriptionThree/> */}
-      {/* <ProjectDescriptionFour/> */}
-      {/* <ProjectDescriptionFive/> */}
-      {/* <ProjectDescriptionSix/> */}
-      {/* <ProjectDescriptionSeven/> */}
-      {/* <ProjectDescriptionEight/> */}
-      {/* <ProjectDescriptionNine/> */}
-      {/* <ProjectDescriptionTen/> */}
-      {/* <ProjectDescriptionEleven/> */}
+      <FileOneDesignOne/>
+      <FileOneDesignTwo/>
+      <FileOneDesignThree/>
+      <FileOneDesignFour/>
+      <FileOneDesignFive/>
+      <FileOneDesignSix/>
+      <FileOneDesignSeven/>
+      <FileOneDesignEight/>
+      <FileOneDesignNine/>
+      <FileOneDesignTen/>
+      <FileOneDesignEleve/>
+      <FileOneDesignTwo/>
 
       
 

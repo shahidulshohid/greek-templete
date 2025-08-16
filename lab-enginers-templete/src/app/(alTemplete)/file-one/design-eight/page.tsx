@@ -1,7 +1,7 @@
 import StampComponent from '@/component/shared/dashed/Dashed'
 import React from 'react'
 
-function ProjectDescriptionEight() {
+function FileOneDesignEight() {
     return (
         <div className='max-w-[632px] mx-auto'>
             {/* Title */}
@@ -87,4 +87,4 @@ function ProjectDescriptionEight() {
     )
 }
 
-export default ProjectDescriptionEight
+export default FileOneDesignEight

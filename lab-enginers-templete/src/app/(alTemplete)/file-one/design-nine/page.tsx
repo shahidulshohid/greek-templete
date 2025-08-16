@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-export default function WasteManagementForm() {
+export default function FileOneDesignNine() {
   const [formData, setFormData] = useState({
     projectDescription: 'PROJECT DISCRIPISON',
     responsibleAuthority: 'YDOM',

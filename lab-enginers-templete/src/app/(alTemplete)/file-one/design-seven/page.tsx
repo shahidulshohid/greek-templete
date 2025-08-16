@@ -1,6 +1,5 @@
 
-
-export default function ProjectDescriptionSix() {
+export default function FileOneDesignSeven() {
     return (
         <div className="max-w-[794px] mx-auto p-4 bg-white">
             {/* Header with coat of arms */}
@@ -11,8 +10,8 @@ export default function ProjectDescriptionSix() {
                     </div>
                 </div>
                 <h1 className="text-xl font-bold mb-2">ΥΠΕΥΘΥΝΗ ΔΗΛΩΣΗ</h1>
-                <p className="text-sm">(άρθρο 8 Ν.1599/1986)</p>
-            </div>    
+                <p className="text-sm font-bold">(άρθρο 8 Ν.1599/1986)</p>
+            </div>
 
             {/* Subtitle */}
             <div className="text-center mb-6 text-sm">
@@ -133,20 +132,20 @@ export default function ProjectDescriptionSix() {
                     <p className="my-4">ως κύριος/ιδιοκτήτης του ακινήτου που βρίσκεται επί της οδού ([Address, Number, Town, Postal code], <span className="font-bold">αναθέτω</span> στον/στην Διπλωματούχο
                         Μηχανικό <span className="font-bold">( Engineers Surname  ,  Engineer's Name, Specialty Engineer AM TEE)</span></p>
 
-                    <p className=" font-bold">για το έργο με τίτλο :</p>
+                    <p className=" font-bold mt-6">για το έργο με τίτλο :</p>
                     <p className=" mb-6">PROJECT DESCRIPTION</p>
                 </div>
 
                 {/* Additional disclaimer text */}
                 <div className="p-4 text-sm space-y-3">
                     <p >
-                        τη συνολική διαχείριση του έργου στο ηλεκτρονικό σύστημα του ΤΕΕ - eadeies που αφορά:
+                        την επίβλεψη των προβλεπόμενων εργασιών που πρόκειται να εκτελεστούν στο ανωτέρω ακίνητο, στο πλαίσιο της
+                        διαδικασίας έκδοσης Έγκρισης Εργασιών Μικρής Κλίμακας, σύμφωνα με τις ισχύουσες πολεοδομικές διατάξεις και
+                        ειδικότερα τις προβλέψεις του άρθρου 29 του Ν.4495/2017.
                     </p>
-                    <p>●Την εκπόνηση και υποβολή των απαραίτητων μελετών (στατικών, αρχιτεκτονικών, τεχνικών, περιβαλλοντικών κ.ά.) όπου απαιτείται.</p>
-                    <p>
-                        ●Την κατάρτιση και υποβολή του φακέλου στην αρμόδια υπηρεσία (e-Άδειες / ΥΔΟΜ )</p>
-                    <p>
-                        ●Τη συνεργασία με άλλους ειδικούς/μελετητές, όπου απαιτείται</p>
+                    <p>Η παρούσα ανάθεση αφορά την τεχνική καθοδήγηση και εποπτεία των εργασιών κατά την υλοποίησή τους, την τήρηση
+                        των σχετικών κανονισμών ασφαλείας, καθώς και την ευθύνη για την πιστή εφαρμογή του εγκεκριμένου περιεχομένου
+                        της άδειας.</p>
                 </div>
 
                 {/* Signature section */}
